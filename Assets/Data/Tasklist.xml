@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <Tasks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TaskList>
-    <Task TaskName="Code restructure">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>4</TaskCategory>
-      <TaskDeadline>2016-12-01T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-17T12:26:48.761588+01:00</DateAdded>
-      <DatePlanned>2016-12-16T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
     <Task TaskName="Notulen">
       <TaskText />
       <TaskPoints>0</TaskPoints>
       <TaskCategory>0</TaskCategory>
       <TaskDeadline>2016-12-01T00:00:00</TaskDeadline>
       <DateAdded>2016-12-17T14:45:18.357197+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <DatePlanned>2016-12-16T00:00:00</DatePlanned>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Boodschappen">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>2</TaskCategory>
+      <TaskDeadline>2016-12-01T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-17T16:35:02.6605752+01:00</DateAdded>
+      <DatePlanned>2016-12-15T00:00:00</DatePlanned>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="BPV uren">
@@ -26,7 +26,7 @@ Aantal weken?</TaskText>
       <TaskCategory>0</TaskCategory>
       <TaskDeadline>2016-12-09T00:00:00</TaskDeadline>
       <DateAdded>2016-12-05T22:44:12.1492019+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <DatePlanned>2016-12-15T00:00:00</DatePlanned>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="TED talk">
@@ -100,7 +100,7 @@ Data in schema zetten</TaskText>
       <TaskCategory>3</TaskCategory>
       <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
       <DateAdded>2016-12-11T10:57:11.6686844+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <DatePlanned>2016-12-15T00:00:00</DatePlanned>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Taaklengte">

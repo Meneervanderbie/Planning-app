@@ -14,8 +14,6 @@ public class TaskList {
     [XmlArrayItem("Category")]
     public List<Category> categoryList;
 
-    public enum sortBy {Deadline, DateAdded};
-
     public TaskList()
     {
         taskList = new List<Task>();
@@ -60,50 +58,5 @@ public class TaskList {
         }
 
         return returnList;
-    }
-
-    public List<Task> Sort(int value)
-    {
-        List<Task> sortedList = taskList;
-        bool sorted = false;
-
-        sortBy typeSort = (sortBy) value;
-
-        while (!sorted)
-        {
-            bool switched = false;
-            for (int i = 0; i < sortedList.Count - 1; i++)
-            {
-                // TODO: make this switch pretty ;)
-                switch (typeSort)
-                {
-                    case sortBy.Deadline:
-                        if (sortedList[i].taskDeadline > sortedList[i + 1].taskDeadline)
-                        {
-                            Task tempTask = sortedList[i];
-                            sortedList[i] = sortedList[i + 1];
-                            sortedList[i + 1] = tempTask;
-                            switched = true;
-                        }
-                        break;
-                    case sortBy.DateAdded:
-                        if (sortedList[i].dateAdded > sortedList[i + 1].dateAdded)
-                        {
-                            Task tempTask = sortedList[i];
-                            sortedList[i] = sortedList[i + 1];
-                            sortedList[i + 1] = tempTask;
-                            switched = true;
-                        }
-                        break;
-                }
-            }
-            if (!switched)
-            {
-                sorted = true;
-            }
-        }
-
-
-        return sortedList;
     }
 }

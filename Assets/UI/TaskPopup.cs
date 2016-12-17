@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TaskPopup: MonoBehaviour {
 
     public UI ui;
+    public ButtonList buttonList;
 
     public InputField taskName;
     public Dropdown textCategory;
@@ -151,7 +152,7 @@ public class TaskPopup: MonoBehaviour {
         currentTask.taskCategory = textCategory.value;
         currentTask.taskText = taskText.text;
         ClearAllFields();
-        ui.UpdateButtonList();
+        buttonList.UpdateButtonList();
         gameObject.SetActive(false);
     }
 
