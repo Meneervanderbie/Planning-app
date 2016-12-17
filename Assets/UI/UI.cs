@@ -53,6 +53,7 @@ public class UI : MonoBehaviour {
     {
         io.Save(Application.dataPath + "/Data/Tasklist.xml", taskList);
         buttonList.MakeButtonList(taskList.taskList, false);
+        calendar.GetMonth(DateTime.Now.Year, DateTime.Now.Month);
         calendar.UpdateCalendar();
     }
 

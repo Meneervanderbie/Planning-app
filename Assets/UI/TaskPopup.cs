@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System;
-using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 
 public class TaskPopup: MonoBehaviour {
@@ -18,6 +18,9 @@ public class TaskPopup: MonoBehaviour {
     public Text currentMonthText;
     public DateTime current;
 
+    public Dropdown minutes;
+    public Dropdown hours;
+
     public Task currentTask;
 
     public void OnEnable()
@@ -26,6 +29,24 @@ public class TaskPopup: MonoBehaviour {
         int month = current.Month;
         int year = current.Year;
         GetMonth(year, month);
+
+        minutes.ClearOptions();
+        hours.ClearOptions();
+        List<string> minuteList = new List<string>();
+        for (int i = 0; i < 60; i++)
+        {
+            minuteList.Add(i.ToString());
+        }
+        minutes.AddOptions(minuteList);
+        minutes.value = currentTask.minutes;
+
+        List<string> hourList = new List<string>();
+        for (int i = 0; i < 11; i++)
+        {
+            hourList.Add(i.ToString());
+        }
+        hours.AddOptions(hourList);
+        hours.value = currentTask.hours;
     }
 
     public void GetMonth(int yr, int mnth)
@@ -151,6 +172,8 @@ public class TaskPopup: MonoBehaviour {
         currentTask.SetName(taskName.text);
         currentTask.taskCategory = textCategory.value;
         currentTask.taskText = taskText.text;
+        currentTask.minutes = minutes.value;
+        currentTask.hours = hours.value;
         ClearAllFields();
         buttonList.UpdateButtonList();
         gameObject.SetActive(false);
@@ -163,8 +186,10 @@ public class TaskPopup: MonoBehaviour {
         gameObject.SetActive(false);
     }
 
+    // Possibly clear other fields as well?
     public void ClearAllFields()
     {
         taskName.text = "";
     }
+
 }

@@ -7,7 +7,9 @@
       <TaskCategory>0</TaskCategory>
       <TaskDeadline>2016-12-01T00:00:00</TaskDeadline>
       <DateAdded>2016-12-17T14:45:18.357197+01:00</DateAdded>
-      <DatePlanned>2016-12-16T00:00:00</DatePlanned>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Boodschappen">
@@ -16,136 +18,20 @@
       <TaskCategory>2</TaskCategory>
       <TaskDeadline>2016-12-01T00:00:00</TaskDeadline>
       <DateAdded>2016-12-17T16:35:02.6605752+01:00</DateAdded>
-      <DatePlanned>2016-12-15T00:00:00</DatePlanned>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="BPV uren">
-      <TaskText>Uitzoeken aantal uur BPV volgens POK? 720 uur? Of meer? 
-Aantal weken?</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-09T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-05T22:44:12.1492019+01:00</DateAdded>
-      <DatePlanned>2016-12-15T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="TED talk">
-      <TaskText>Hitman en interactable objects</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-11-30T15:43:30.5012719+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Open dag">
-      <TaskText>Peter vragen om informatie</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-11-30T15:44:36.253364+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Examens: alles uitzoeken">
-      <TaskText>https://portal-mw.deltion.nl/catalogi/ex/kaders-stellen/handboek-examinering
-
-Data in schema zetten</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-01T22:05:17.2103825+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Signature">
-      <TaskText>werkmail sig fixen</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-07T17:54:58.9216474+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Bespreken onderzoek">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>1</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-09T13:58:37.7371786+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Werkmail">
+    <Task TaskName="Aanwezigheid rekenen">
       <TaskText />
       <TaskPoints>0</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-10T15:09:59.6406277+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Persoonlijke mail">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>3</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-10T15:10:07.8225133+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="PC fix">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>3</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-11T10:57:11.6686844+01:00</DateAdded>
-      <DatePlanned>2016-12-15T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Taaklengte">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>4</TaskCategory>
-      <TaskDeadline>2016-12-10T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-15T21:43:42.1815056+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Eisen dev">
-      <TaskText>Exacte eisen tweedejaars</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-11T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-07T17:48:16.6557426+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Post">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>3</TaskCategory>
-      <TaskDeadline>2016-12-11T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-07T17:55:27.1536875+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="C++?">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-11T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-08T09:15:22.8233997+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Les uitwerken: GOAP">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-11T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-10T15:05:50.2890146+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskDeadline>2016-12-01T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-17T16:55:46.4700105+01:00</DateAdded>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Open dagen">
@@ -153,9 +39,89 @@ Data in schema zetten</TaskText>
 zaterdag 21 januari 10:00 - 14:00</TaskText>
       <TaskPoints>0</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-12T00:00:00</TaskDeadline>
+      <TaskDeadline>2016-12-17T00:00:00</TaskDeadline>
       <DateAdded>2016-12-02T09:34:02.4339992+01:00</DateAdded>
+      <DatePlanned>2016-12-19T00:00:00</DatePlanned>
+      <TaskMinutes>1</TaskMinutes>
+      <TaskHours>1</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Post">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>3</TaskCategory>
+      <TaskDeadline>2016-12-17T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-07T17:55:27.1536875+01:00</DateAdded>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Werkmail">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-17T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-10T15:09:59.6406277+01:00</DateAdded>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>1</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Bespreken onderzoek">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>1</TaskCategory>
+      <TaskDeadline>2016-12-17T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-09T13:58:37.7371786+01:00</DateAdded>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Signature">
+      <TaskText>werkmail sig fixen</TaskText>
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-17T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-07T17:54:58.9216474+01:00</DateAdded>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>15</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Open dag">
+      <TaskText>Peter vragen om informatie
+Studenten studiepunt. Hoeveel studenten? Procedure? </TaskText>
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-17T00:00:00</TaskDeadline>
+      <DateAdded>2016-11-30T15:44:36.253364+01:00</DateAdded>
+      <DatePlanned>2016-12-19T00:00:00</DatePlanned>
+      <TaskMinutes>15</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Persoonlijke mail">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>3</TaskCategory>
+      <TaskDeadline>2016-12-18T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-10T15:10:07.8225133+01:00</DateAdded>
+      <DatePlanned>2016-12-18T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>1</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Studieprogramma">
+      <TaskText>Wanneer opleiding gehaald? Alles voldoende of puntensysteem?</TaskText>
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-18T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-07T16:07:11.0288996+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Studiepunten">
@@ -164,86 +130,35 @@ Compensatie Wearable?
 Hoeveel studiepunten voor afronden opleiding?</TaskText>
       <TaskPoints>0</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-12T00:00:00</TaskDeadline>
+      <TaskDeadline>2016-12-18T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T16:05:56.4919106+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Studieprogramma">
-      <TaskText>Wanneer opleiding gehaald? Alles voldoende of puntensysteem?</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-12T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-07T16:07:11.0288996+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Gerjohn">
-      <TaskText>Gesprek over UML en communicatie Dees</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-12T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-07T16:34:35.9260931+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Arne: voortgang?">
+    <Task TaskName="Les uitwerken: GOAP">
       <TaskText />
       <TaskPoints>0</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-12T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-10T14:12:09.1086993+01:00</DateAdded>
+      <TaskDeadline>2016-12-18T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-10T15:05:50.2890146+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Select Category">
-      <TaskText>get all in buttonlist</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>4</TaskCategory>
-      <TaskDeadline>2016-12-13T00:00:00</TaskDeadline>
-      <DateAdded>2016-11-30T15:20:28.5077685+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Vergadering">
-      <TaskText>AP's
-Lengte presentaties
-Examens
-HOP</TaskText>
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-15T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-06T13:40:16.6285425+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Game Jam?">
-      <TaskText>http://www.dutchgamegarden.nl/news/nieuwsdetail/register-now-for-the-global-game-jam-2017-318/
+    <Task TaskName="Examens: alles uitzoeken">
+      <TaskText>https://portal-mw.deltion.nl/catalogi/ex/kaders-stellen/handboek-examinering
 
-http://globalgamejam.nl/windesheim-zwolle/</TaskText>
+Data in schema zetten</TaskText>
       <TaskPoints>0</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-15T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-07T12:26:41.7612536+01:00</DateAdded>
+      <TaskDeadline>2016-12-18T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-01T22:05:17.2103825+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Paige">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-16T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-07T18:23:22.6077655+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Notulen">
-      <TaskText />
-      <TaskPoints>0</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2016-12-17T00:00:00</TaskDeadline>
-      <DateAdded>2016-12-15T21:35:59.4991005+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Rooster periode 3&amp;4">
@@ -253,6 +168,8 @@ http://globalgamejam.nl/windesheim-zwolle/</TaskText>
       <TaskDeadline>2016-12-18T00:00:00</TaskDeadline>
       <DateAdded>2016-12-02T11:11:48.2769439+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Tijden">
@@ -263,6 +180,30 @@ http://globalgamejam.nl/windesheim-zwolle/</TaskText>
       <TaskDeadline>2016-12-18T00:00:00</TaskDeadline>
       <DateAdded>2016-12-15T21:44:26.4362283+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Gerjohn">
+      <TaskText>Gesprek over UML en communicatie Dees</TaskText>
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-19T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-07T16:34:35.9260931+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Eisen dev">
+      <TaskText>Exacte eisen tweedejaars</TaskText>
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-21T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-07T17:48:16.6557426+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Afspraak Hadassah">
@@ -272,6 +213,65 @@ http://globalgamejam.nl/windesheim-zwolle/</TaskText>
       <TaskDeadline>2016-12-21T00:00:00</TaskDeadline>
       <DateAdded>2016-11-30T16:52:00.0753064+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Paige">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-23T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-07T18:23:22.6077655+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Arne: voortgang?">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-23T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-10T14:12:09.1086993+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Game Jam?">
+      <TaskText>Op de hoogte blijven van Game Jams, netwerklunches etc. 
+
+Regelmatig checken?</TaskText>
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-07T12:26:41.7612536+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>30</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Select Category">
+      <TaskText>get all in buttonlist</TaskText>
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>4</TaskCategory>
+      <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
+      <DateAdded>2016-11-30T15:20:28.5077685+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="C++?">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-08T09:15:22.8233997+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Pokemon XY">
@@ -283,6 +283,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-11-30T15:37:35.9355579+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Resize Buttonlist?">
@@ -292,6 +294,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-11-30T15:44:15.621227+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Procedure intakes">
@@ -301,6 +305,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-04T12:03:27.7901645+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Fotoboek Peru">
@@ -310,6 +316,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T15:50:55.8880509+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Inheritance">
@@ -319,6 +327,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T16:54:09.7660683+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Onderzoek">
@@ -328,6 +338,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T17:24:45.9094906+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Urenregistratie">
@@ -337,6 +349,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T17:26:03.8582697+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Bad Sector">
@@ -346,6 +360,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T18:15:51.4384203+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Lessen dev:">
@@ -358,6 +374,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T18:19:57.8897232+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Filter tasks">
@@ -367,6 +385,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-10T19:25:28.355347+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Search tasks">
@@ -376,6 +396,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-10T19:25:39.6042105+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Uitzoeken procedure inschrijving">
@@ -387,6 +409,8 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-11T12:55:49.9733637+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Studentenraad?">
@@ -396,6 +420,19 @@ Brick Break
       <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-11T12:58:56.1228353+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Delete = redraw calendar">
+      <TaskText />
+      <TaskPoints>0</TaskPoints>
+      <TaskCategory>4</TaskCategory>
+      <TaskDeadline>2016-12-31T00:00:00</TaskDeadline>
+      <DateAdded>2016-12-17T17:04:56.7332291+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Gouden Gilet">
@@ -405,6 +442,8 @@ Brick Break
       <TaskDeadline>2017-01-08T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T17:20:09.5783096+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Ochtendjas repareren">
@@ -414,6 +453,8 @@ Brick Break
       <TaskDeadline>2017-01-08T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T17:20:46.8468654+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Faf SSC">
@@ -423,6 +464,8 @@ Brick Break
       <TaskDeadline>2017-01-20T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T12:25:33.4677931+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="MBTI forum avatar">
@@ -432,6 +475,8 @@ Brick Break
       <TaskDeadline>2017-01-31T00:00:00</TaskDeadline>
       <DateAdded>2016-12-02T11:39:22.2540222+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Pokemon fusion?">
@@ -444,6 +489,8 @@ Sandshrew + Skarmory</TaskText>
       <TaskDeadline>2017-02-28T00:00:00</TaskDeadline>
       <DateAdded>2016-11-30T16:52:56.3238701+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Particle Systems">
@@ -453,6 +500,8 @@ Sandshrew + Skarmory</TaskText>
       <TaskDeadline>2017-02-28T00:00:00</TaskDeadline>
       <DateAdded>2016-12-07T18:14:50.78274+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Dwarf Fortress">
@@ -462,6 +511,8 @@ Sandshrew + Skarmory</TaskText>
       <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
       <DateAdded>2016-12-06T08:57:33.9898319+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Dynamic font size">
@@ -471,6 +522,8 @@ Sandshrew + Skarmory</TaskText>
       <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
       <DateAdded>2016-12-07T12:26:26.1597111+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Bugfix">
@@ -480,6 +533,8 @@ Sandshrew + Skarmory</TaskText>
       <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
       <DateAdded>2016-12-07T12:27:44.6443136+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Repeatable tasks">
@@ -489,6 +544,8 @@ Sandshrew + Skarmory</TaskText>
       <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
       <DateAdded>2016-12-07T17:54:11.5340746+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="test">
@@ -498,6 +555,8 @@ Sandshrew + Skarmory</TaskText>
       <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
       <DateAdded>2016-12-15T15:34:15.8328396+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <TaskTime>PT0S</TaskTime>
     </Task>
   </TaskList>

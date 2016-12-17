@@ -26,6 +26,12 @@ public class Task {
     [XmlElement("DatePlanned")]
     public DateTime datePlanned;
 
+    [XmlElement("TaskMinutes")]
+    public int minutes;
+
+    [XmlElement("TaskHours")]
+    public int hours;
+
     TimeSpan taskTime;
     
     // Task parent; ??
