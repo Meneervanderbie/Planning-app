@@ -32,6 +32,9 @@ public class Task {
     [XmlElement("TaskHours")]
     public int hours;
 
+    [XmlElement("Repeat")]
+    public int repeat;
+
     TimeSpan taskTime;
     
     // Task parent; ??

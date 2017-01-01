@@ -12,6 +12,9 @@ public class TaskPopup: MonoBehaviour {
     public Dropdown textCategory;
     public InputField taskText;
 
+    public Toggle today;
+    public Toggle asap;
+
     public GameObject dayPicker;
     public GameObject dayPickerRow;
     public Button dayPickerDay;
@@ -21,6 +24,8 @@ public class TaskPopup: MonoBehaviour {
     public Dropdown minutes;
     public Dropdown hours;
 
+    public Dropdown repeat;
+
     public Task currentTask;
 
     public void OnEnable()
@@ -29,6 +34,7 @@ public class TaskPopup: MonoBehaviour {
         int month = current.Month;
         int year = current.Year;
         GetMonth(year, month);
+        repeat.value = currentTask.repeat;
 
         minutes.ClearOptions();
         hours.ClearOptions();
@@ -39,6 +45,8 @@ public class TaskPopup: MonoBehaviour {
         }
         minutes.AddOptions(minuteList);
         minutes.value = currentTask.minutes;
+
+        today.isOn = currentTask.datePlanned == DateTime.Today;
 
         List<string> hourList = new List<string>();
         for (int i = 0; i < 11; i++)
@@ -69,8 +77,7 @@ public class TaskPopup: MonoBehaviour {
 
         GameObject newBar = Instantiate(dayPickerRow, dayPicker.transform) as GameObject;
         int dayCounter = 1;
-        // Waarom + 2? Find out!
-        for (int i = daysInPrevMonth - firstDayNum + 2; i <= daysInPrevMonth; i++)
+        for (int i = daysInPrevMonth - firstDayNum + 2; i <= daysInPrevMonth; i++)   // Waarom + 2? Find out!
         {
             Button newButton = Instantiate(dayPickerDay, newBar.transform) as Button;
             newButton.GetComponentInChildren<Text>().text = i.ToString();
@@ -141,6 +148,31 @@ public class TaskPopup: MonoBehaviour {
         }
     }
 
+    public void SetToday()
+    {
+        if (today.isOn)
+        {
+            currentTask.datePlanned = DateTime.Today;
+            currentTask.taskDeadline = DateTime.Today;
+            asap.isOn = false;
+        }
+        else
+        {
+            currentTask.datePlanned = DateTime.MinValue;
+            currentTask.taskDeadline = DateTime.MinValue;
+        }
+    }
+
+    public void SetASAP()
+    {
+        if (asap.isOn)
+        {
+            currentTask.taskDeadline = DateTime.MinValue;
+            currentTask.datePlanned = DateTime.MinValue;
+            today.isOn = false;
+        }
+    }
+
     public void prevMonth()
     {
         current = current.AddMonths(-1);
@@ -174,22 +206,36 @@ public class TaskPopup: MonoBehaviour {
         currentTask.taskText = taskText.text;
         currentTask.minutes = minutes.value;
         currentTask.hours = hours.value;
-        ClearAllFields();
+        currentTask.repeat = repeat.value;
         buttonList.UpdateButtonList();
         gameObject.SetActive(false);
     }
 
     public void DeleteTask()
     {
-        ui.DeleteTask(currentTask);
-        ClearAllFields();
-        gameObject.SetActive(false);
-    }
+        if(repeat.value == 0)
+        {
+            ui.DeleteTask(currentTask);
+            gameObject.SetActive(false);
+        }
+        else if(repeat.value == 1) // daily
+        {
+            currentTask.taskDeadline = currentTask.taskDeadline.AddDays(1);
+            currentTask.datePlanned = currentTask.taskDeadline.AddDays(1);
+            gameObject.SetActive(false);
+        }
+        else if (repeat.value == 2) // weekly
+        {
+            currentTask.taskDeadline = currentTask.taskDeadline.AddDays(7);
+            currentTask.datePlanned = currentTask.taskDeadline.AddDays(7);
+            gameObject.SetActive(false);
+        }
+        else if (repeat.value == 3) // daily
+        {
+            currentTask.taskDeadline = currentTask.taskDeadline.AddMonths(1);
+            currentTask.datePlanned = currentTask.datePlanned.AddMonths(1);
+            gameObject.SetActive(false);
+        }
 
-    // Possibly clear other fields as well?
-    public void ClearAllFields()
-    {
-        taskName.text = "";
     }
-
 }

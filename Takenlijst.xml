@@ -1,95 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Takenlijst xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <taken>
-    <Taak Taaknaam="MBTI Avatar">
-      <Taaktekst>Draco uploaden etc</Taaktekst>
-      <Taakpunten>20000</Taakpunten>
-      <Taakcategorie>3</Taakcategorie>
-      <TaakDeadline>11/7/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>1</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="Gekleurde buttons">
-      <Taaktekst>Categorie lezen en buttonfill aan de hand van gekozen kleur</Taaktekst>
-      <Taakpunten>20000</Taakpunten>
-      <Taakcategorie>1</Taakcategorie>
-      <TaakDeadline>11/9/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>6</TaakTijd>
-      <TaakParent />
-    </Taak>
     <Taak Taaknaam="Dagelijkse taken">
       <Taaktekst>Automatisch toevoegen:
-aankleden, scheren, ontbijt, lunch, comics, dailymtg, avondeten, werkmaiil, mail</Taaktekst>
+aankleden, scheren, ontbijt, lunch, comics, dailymtg, avondeten, werkmail, mail, opruimen, boodschappen, todo's</Taaktekst>
       <Taakpunten>20000</Taakpunten>
       <Taakcategorie>1</Taakcategorie>
       <TaakDeadline>11/9/2016 12:00:00 AM</TaakDeadline>
       <TaakTijd>4</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="Persoonlijke mail">
-      <Taaktekst>Alles doorwerken</Taaktekst>
-      <Taakpunten>10000</Taakpunten>
-      <Taakcategorie>4</Taakcategorie>
-      <TaakDeadline>10/25/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>4</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="SLB">
-      <Taaktekst>Wie volgt? 
-Aanwezigheid? 
-Andere zaken? </Taaktekst>
-      <Taakpunten>6000</Taakpunten>
-      <Taakcategorie>0</Taakcategorie>
-      <TaakDeadline>11/10/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>1</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="Sound Design">
-      <Taaktekst>Praten Helga en Jan</Taaktekst>
-      <Taakpunten>6000</Taakpunten>
-      <Taakcategorie>0</Taakcategorie>
-      <TaakDeadline>11/10/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>1</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="SLB">
-      <Taaktekst>Aanwezigheid</Taaktekst>
-      <Taakpunten>6000</Taakpunten>
-      <Taakcategorie>0</Taakcategorie>
-      <TaakDeadline>11/10/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>1</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="Lessen tweedejaars">
-      <Taaktekst>Trees</Taaktekst>
-      <Taakpunten>6000</Taakpunten>
-      <Taakcategorie>0</Taakcategorie>
-      <TaakDeadline>11/10/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>4</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="OOP N@tschool">
-      <Taaktekst>Is af, moet nog op N@tschool</Taaktekst>
-      <Taakpunten>6000</Taakpunten>
-      <Taakcategorie>0</Taakcategorie>
-      <TaakDeadline>11/10/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>2</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="Uit de les">
-      <Taaktekst>Waarheen? Opleidingsmanager? </Taaktekst>
-      <Taakpunten>6000</Taakpunten>
-      <Taakcategorie>0</Taakcategorie>
-      <TaakDeadline>11/10/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>1</TaakTijd>
-      <TaakParent />
-    </Taak>
-    <Taak Taaknaam="Jan">
-      <Taaktekst>Instantiate object, niet model</Taaktekst>
-      <Taakpunten>6000</Taakpunten>
-      <Taakcategorie>0</Taakcategorie>
-      <TaakDeadline>11/10/2016 12:00:00 AM</TaakDeadline>
-      <TaakTijd>1</TaakTijd>
       <TaakParent />
     </Taak>
     <Taak Taaknaam="Navmesh Agents">

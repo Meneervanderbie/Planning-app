@@ -5,9 +5,8 @@ using UnityEngine.UI;
 
 public class DayPlanner : MonoBehaviour {
 
-    public void Start()
-    {
+    public Button plannedTask;
 
-    }
+
 
 }

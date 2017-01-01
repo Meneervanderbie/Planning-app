@@ -108,21 +108,6 @@ public class Calendar : MonoBehaviour {
             {
                 cDay.AddTask(task);
             }
-            //if (task.datePlanned != DateTime.MinValue)
-            //{
-            //    DateTime planned = task.datePlanned;
-            //    if (Math.Abs((task.datePlanned - monthViewing).TotalDays) < 32)
-            //    {
-            //        foreach (CalendarDay cDay in monthPanel.GetComponentsInChildren<CalendarDay>())
-            //        {
-            //            if (cDay.day == planned.Day && cDay.month == planned.Month && cDay.year == planned.Year)
-            //            {
-            //                cDay.AddTask(task);
-            //                break;
-            //            }
-            //        }
-            //    }
-            //}
         }
         return cDay.assignedTasks;
     }
