@@ -10,6 +10,7 @@ public class IO {
         XmlSerializer reader = new XmlSerializer(typeof(TaskList));
         FileStream stream = new FileStream(filePath, FileMode.Open);
         TaskList list = reader.Deserialize(stream) as TaskList;
+        stream.Close();
 
         return list;
     }

@@ -34,7 +34,7 @@ public class TaskPopup: MonoBehaviour {
         int month = current.Month;
         int year = current.Year;
         GetMonth(year, month);
-        repeat.value = currentTask.repeat;
+        //repeat.value = currentTask.repeat;
 
         minutes.ClearOptions();
         hours.ClearOptions();
@@ -206,7 +206,7 @@ public class TaskPopup: MonoBehaviour {
         currentTask.taskText = taskText.text;
         currentTask.minutes = minutes.value;
         currentTask.hours = hours.value;
-        currentTask.repeat = repeat.value;
+        //currentTask.repeat = repeat.value;
         buttonList.UpdateButtonList();
         gameObject.SetActive(false);
     }

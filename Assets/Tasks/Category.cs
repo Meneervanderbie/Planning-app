@@ -10,6 +10,9 @@ public class Category {
     [XmlElement("CategoryNumber")]
     public int categoryNumber;
 
+    [XmlElement("CategoryPoints")]
+    public int points;
+
     // color thing etc;
 
     public Category()

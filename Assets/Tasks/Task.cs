@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 using System;
 using System.Xml;
 using System.Xml.Serialization;
@@ -32,11 +32,26 @@ public class Task {
     [XmlElement("TaskHours")]
     public int hours;
 
-    [XmlElement("Repeat")]
-    public int repeat;
+    [XmlElement("Objective1")]
+    public string objective1;
+
+    [XmlElement("Objective2")]
+    public string objective2;
+
+    [XmlElement("Objective3")]
+    public string objective3;
+
+    [XmlElement("Objective4")]
+    public string objective4;
+
+    [XmlElement("ASAP")]
+    public bool asap;
+
+    //[XmlElement("Repeat")]
+    //public int repeat;
 
     TimeSpan taskTime;
-    
+
     // Task parent; ??
 
     public Task()
@@ -51,6 +66,84 @@ public class Task {
         taskDeadline = DateTime.MaxValue;
     }
 
+    public Task(string name, string text, string obj1, string obj2, string obj3, string obj4, int hrs, int mnts, int cat, int deadline)
+    {
+        taskName = name;
+        taskText = text;
+        objective1 = obj1;
+        objective2 = obj2;
+        objective3 = obj3;
+        objective4 = obj4;
+        hours = hrs;
+        minutes = mnts;
+        taskCategory = cat;
+        dateAdded = DateTime.Today;
+        
+        if(deadline == 0)
+        {
+            taskDeadline = DateTime.Today;
+            asap = false;
+        }
+        else if(deadline == 1)
+        {
+            taskDeadline = DateTime.MaxValue;
+            asap = true;
+        }
+        else if(deadline == 2)
+        {
+            taskDeadline = DateTime.Today.AddDays(7);
+            asap = false;
+        }
+        else if(deadline == 3)
+        {
+            taskDeadline = DateTime.Today.AddMonths(1);
+            asap = false;
+        }
+        else
+        {
+            taskDeadline = DateTime.MaxValue;
+        }
+    }
+
+    public void Edit(string name, string text, string obj1, string obj2, string obj3, string obj4, int hrs, int mnts, int cat, int deadline)
+    {
+        taskName = name;
+        taskText = text;
+        objective1 = obj1;
+        objective2 = obj2;
+        objective3 = obj3;
+        objective4 = obj4;
+        hours = hrs;
+        minutes = mnts;
+        taskCategory = cat;
+        dateAdded = DateTime.Today;
+
+        if (deadline == 0)
+        {
+            taskDeadline = DateTime.Today;
+            asap = false;
+        }
+        else if (deadline == 1)
+        {
+            taskDeadline = DateTime.MaxValue;
+            asap = true;
+        }
+        else if (deadline == 2)
+        {
+            taskDeadline = DateTime.Today.AddDays(7);
+            asap = false;
+        }
+        else if (deadline == 3)
+        {
+            taskDeadline = DateTime.Today.AddMonths(1);
+            asap = false;
+        }
+        else
+        {
+            taskDeadline = DateTime.MaxValue;
+        }
+    }
+
     public string GetName()
     {
         return taskName;
@@ -59,6 +152,34 @@ public class Task {
     public void SetName(string name)
     {
         taskName = name;
+    }
+
+    public int GetPoints(List<Category> categoryList)
+    {
+        float tempValue = 1f;
+        if(taskDeadline == DateTime.Today)
+        {
+            tempValue = 10;
+        }
+        else if(taskDeadline < DateTime.Today)
+        {
+            tempValue = 20;
+        }
+        else if(taskDeadline != DateTime.MinValue)
+        {
+            TimeSpan totalTime = taskDeadline - dateAdded;
+            TimeSpan timeLeft = taskDeadline - DateTime.Now;
+            //Debug.Log(totalTime.TotalMinutes + " " + timeLeft.TotalMinutes);
+            tempValue = (float) totalTime.TotalMinutes / (float) timeLeft.TotalMinutes;
+        }
+        tempValue *= categoryList[taskCategory].points;
+        if (asap)
+        {
+            tempValue *= 2;
+        }
+
+        taskPoints = (int)tempValue;
+        return (int)tempValue;
     }
 
     [XmlElement(DataType = "duration", ElementName = "TaskTime")]
