@@ -82,21 +82,25 @@ public class NewTask : MonoBehaviour {
         {
             deadline.value = 0;
         }
-        else if (task.asap)
+        else if(task.taskDeadline == DateTime.Today.AddDays(1))
         {
             deadline.value = 1;
         }
-        else if((task.taskDeadline - DateTime.Today).TotalDays <= 7)
+        else if (task.asap)
         {
             deadline.value = 2;
         }
-        else if((task.taskDeadline - DateTime.Today).TotalDays <= 31)
+        else if((task.taskDeadline - DateTime.Today).TotalDays <= 7)
         {
             deadline.value = 3;
         }
-        else
+        else if((task.taskDeadline - DateTime.Today).TotalDays <= 31)
         {
             deadline.value = 4;
+        }
+        else
+        {
+            deadline.value = 5;
         }
     }
 

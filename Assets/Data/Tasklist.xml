@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <Tasks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TaskList>
-    <Task TaskName="Opdrachtgevers PvB vinden?">
+    <Task TaskName="Afronden vragenlijst onderzoek">
       <TaskText />
-      <TaskPoints>200</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2017-01-25T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-25T00:00:00+01:00</DateAdded>
+      <TaskPoints>160</TaskPoints>
+      <TaskCategory>1</TaskCategory>
+      <TaskDeadline>2017-02-01T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
@@ -17,12 +17,12 @@
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Nieuwe fiets kopen">
+    <Task TaskName="Boodschappen">
       <TaskText />
-      <TaskPoints>100</TaskPoints>
-      <TaskCategory>3</TaskCategory>
-      <TaskDeadline>2017-01-27T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-27T00:00:00+01:00</DateAdded>
+      <TaskPoints>60</TaskPoints>
+      <TaskCategory>2</TaskCategory>
+      <TaskDeadline>2017-02-02T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-02-02T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
@@ -49,9 +49,41 @@
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
+    <Task TaskName="Tomorrow">
+      <TaskText />
+      <TaskPoints>60</TaskPoints>
+      <TaskCategory>4</TaskCategory>
+      <TaskDeadline>2017-02-01T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Fotoboek Peru">
+      <TaskText />
+      <TaskPoints>40</TaskPoints>
+      <TaskCategory>2</TaskCategory>
+      <TaskDeadline>2017-02-07T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-07T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
     <Task TaskName="Draw Calls?">
       <TaskText>Uitzoeken hoe Draw Calls effect hebben op het spel</TaskText>
-      <TaskPoints>24</TaskPoints>
+      <TaskPoints>36</TaskPoints>
       <TaskCategory>0</TaskCategory>
       <TaskDeadline>2017-02-11T00:00:00+01:00</TaskDeadline>
       <DateAdded>2017-01-11T00:00:00+01:00</DateAdded>
@@ -67,7 +99,7 @@
     </Task>
     <Task TaskName="Dev uitwerken">
       <TaskText />
-      <TaskPoints>24</TaskPoints>
+      <TaskPoints>36</TaskPoints>
       <TaskCategory>0</TaskCategory>
       <TaskDeadline>2017-02-11T00:00:00+01:00</TaskDeadline>
       <DateAdded>2017-01-11T00:00:00+01:00</DateAdded>
@@ -84,7 +116,7 @@
     <Task TaskName="SLB-idee">
       <TaskText>Bedrijven met ad revenue
 Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
-      <TaskPoints>21</TaskPoints>
+      <TaskPoints>29</TaskPoints>
       <TaskCategory>0</TaskCategory>
       <TaskDeadline>2017-02-13T00:00:00+01:00</TaskDeadline>
       <DateAdded>2017-01-13T00:00:00+01:00</DateAdded>
@@ -98,12 +130,60 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Fotoboek Peru">
+    <Task TaskName="Les: Navmesh">
+      <TaskText>Uitwerken en online</TaskText>
+      <TaskPoints>24</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>3</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Lessen Dev">
+      <TaskText>Inheritance, coroutines</TaskText>
+      <TaskPoints>24</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>4</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Les Heuristiek">
+      <TaskText>Uitwerken en online</TaskText>
+      <TaskPoints>24</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>1</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Ouderavond?">
       <TaskText />
-      <TaskPoints>21</TaskPoints>
-      <TaskCategory>2</TaskCategory>
-      <TaskDeadline>2017-02-07T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-07T00:00:00+01:00</DateAdded>
+      <TaskPoints>24</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
@@ -114,14 +194,78 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Afspraak onderzoek">
-      <TaskText>Woensdag 1 februari, 13:30 uur</TaskText>
+    <Task TaskName="Onderzoek: methode">
+      <TaskText />
       <TaskPoints>21</TaskPoints>
       <TaskCategory>1</TaskCategory>
-      <TaskDeadline>2017-02-01T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-25T00:00:00+01:00</DateAdded>
+      <TaskDeadline>2017-02-14T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-14T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>5</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Afspreken wiskundedocenten">
+      <TaskText />
+      <TaskPoints>20</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="DC series kijken">
+      <TaskText>Downloaden: Arrow, Legends of Tomorrow, Supergirl, The Flash</TaskText>
+      <TaskPoints>20</TaskPoints>
+      <TaskCategory>5</TaskCategory>
+      <TaskDeadline>2017-01-25T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-18T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Drive to Work">
+      <TaskText />
+      <TaskPoints>20</TaskPoints>
+      <TaskCategory>5</TaskCategory>
+      <TaskDeadline>2017-01-29T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>30</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Minecraft spelen">
+      <TaskText />
+      <TaskPoints>20</TaskPoints>
+      <TaskCategory>5</TaskCategory>
+      <TaskDeadline>2017-01-29T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
       <Objective1 />
       <Objective2 />
@@ -136,22 +280,6 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <TaskCategory>0</TaskCategory>
       <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
       <DateAdded>2017-01-12T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>0</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>true</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Hoe project inleveren?">
-      <TaskText>2ejaars: CD branden oid?</TaskText>
-      <TaskPoints>20</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
-      <DateAdded>2017-01-13T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
@@ -194,12 +322,125 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="DC series kijken">
-      <TaskText>Downloaden: Arrow, Legends of Tomorrow, Supergirl, The Flash</TaskText>
+    <Task TaskName="Roosters">
+      <TaskText>Kijken naar: </TaskText>
       <TaskPoints>20</TaskPoints>
-      <TaskCategory>5</TaskCategory>
-      <TaskDeadline>2017-01-25T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-18T00:00:00+01:00</DateAdded>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1>Project eerstejaars</Objective1>
+      <Objective2>Frank de Kimpe?</Objective2>
+      <Objective3>GL vrijdag 8 uur?</Objective3>
+      <Objective4>Locatie rekenen en maandag meh?</Objective4>
+      <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Teamplan?">
+      <TaskText>Wat is dit? Plan van inzet? </TaskText>
+      <TaskPoints>20</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Schema meelopers maken">
+      <TaskText />
+      <TaskPoints>20</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Afmaken vragenlijst onderzoek">
+      <TaskText />
+      <TaskPoints>20</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="P-taak 2">
+      <TaskText>Stappenplan, begeleider... en doen...</TaskText>
+      <TaskPoints>19</TaskPoints>
+      <TaskCategory>1</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>5</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="P-taak 3">
+      <TaskText>Uitzoeken, plannen en uitvoeren
+        Begeleider?</TaskText>
+      <TaskPoints>19</TaskPoints>
+      <TaskCategory>1</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>5</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Portfolio studie">
+      <TaskText />
+      <TaskPoints>19</TaskPoints>
+      <TaskCategory>1</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>5</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="PPO2">
+      <TaskText>?</TaskText>
+      <TaskPoints>19</TaskPoints>
+      <TaskCategory>1</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
@@ -210,15 +451,15 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Les: Navmesh">
-      <TaskText>Uitwerken en online</TaskText>
-      <TaskPoints>18</TaskPoints>
+    <Task TaskName="Afwezigheid 1ejaars">
+      <TaskText>Met Johan invoeren Ris?</TaskText>
+      <TaskPoints>19</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <TaskDeadline>2017-02-06T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-30T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
-      <TaskHours>3</TaskHours>
+      <TaskHours>0</TaskHours>
       <Objective1 />
       <Objective2 />
       <Objective3 />
@@ -226,15 +467,15 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Lessen Dev">
-      <TaskText>Inheritance, coroutines</TaskText>
-      <TaskPoints>18</TaskPoints>
+    <Task TaskName="Voorlichting">
+      <TaskText>13 februari voorlichting @ Deltion</TaskText>
+      <TaskPoints>19</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <TaskDeadline>2017-02-06T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-30T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
-      <TaskHours>4</TaskHours>
+      <TaskHours>0</TaskHours>
       <Objective1 />
       <Objective2 />
       <Objective3 />
@@ -242,28 +483,12 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Les Heuristiek">
-      <TaskText>Uitwerken en online</TaskText>
-      <TaskPoints>18</TaskPoints>
+    <Task TaskName="Vakken ICT">
+      <TaskText>Uitzoeken welke vakken ICT heeft</TaskText>
+      <TaskPoints>19</TaskPoints>
       <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>1</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Ouderavond?">
-      <TaskText />
-      <TaskPoints>18</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <TaskDeadline>2017-02-06T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-30T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
@@ -306,77 +531,12 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Onderzoek: methode">
+    <Task TaskName="Artikelen onderzoek">
       <TaskText />
-      <TaskPoints>15</TaskPoints>
+      <TaskPoints>16</TaskPoints>
       <TaskCategory>1</TaskCategory>
-      <TaskDeadline>2017-02-14T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-14T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>5</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="P-taak 2">
-      <TaskText>Stappenplan, begeleider... en doen...</TaskText>
-      <TaskPoints>14</TaskPoints>
-      <TaskCategory>1</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>5</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="P-taak 3">
-      <TaskText>Uitzoeken, plannen en uitvoeren
-        Begeleider?</TaskText>
-      <TaskPoints>14</TaskPoints>
-      <TaskCategory>1</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>5</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Portfolio studie">
-      <TaskText />
-      <TaskPoints>14</TaskPoints>
-      <TaskCategory>1</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>5</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="PPO2">
-      <TaskText>?</TaskText>
-      <TaskPoints>14</TaskPoints>
-      <TaskCategory>1</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
@@ -384,12 +544,12 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <Objective2 />
       <Objective3 />
       <Objective4 />
-      <ASAP>false</ASAP>
+      <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Glas wegbrengen">
       <TaskText />
-      <TaskPoints>11</TaskPoints>
+      <TaskPoints>14</TaskPoints>
       <TaskCategory>2</TaskCategory>
       <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
       <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
@@ -401,6 +561,134 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <Objective3 />
       <Objective4 />
       <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Doos voor oud papier">
+      <TaskText />
+      <TaskPoints>12</TaskPoints>
+      <TaskCategory>2</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Nieuwe jas">
+      <TaskText>John Bardale?</TaskText>
+      <TaskPoints>12</TaskPoints>
+      <TaskCategory>3</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Vakken Dev?">
+      <TaskText>Bij opzetten opleiding: opsplitsen Dev naar vakken? </TaskText>
+      <TaskPoints>11</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-02-28T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Anja v/d Sluis">
+      <TaskText>Helpt met integratie met ICT?</TaskText>
+      <TaskPoints>11</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-02-28T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Auteursrechten eerstejaars">
+      <TaskText />
+      <TaskPoints>11</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-02-28T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-30T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="AI: groepsformatie?">
+      <TaskText />
+      <TaskPoints>10</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-03-01T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Nieuwe fiets kopen">
+      <TaskText />
+      <TaskPoints>10</TaskPoints>
+      <TaskCategory>3</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Nieuwe telefoon kopen">
+      <TaskText />
+      <TaskPoints>10</TaskPoints>
+      <TaskCategory>3</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="AER map maken">
@@ -467,15 +755,98 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Nieuwe jas">
-      <TaskText>John Bardale?</TaskText>
-      <TaskPoints>9</TaskPoints>
-      <TaskCategory>3</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+    <Task TaskName="Geen stage?">
+      <TaskText>Wat doen studenten die geen stage kunnen vinden?</TaskText>
+      <TaskPoints>10</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-01-30T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Studenten mailen">
+      <TaskText>SLB: 
+- Paige?
+- Jennifer?</TaskText>
+      <TaskPoints>10</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Dagschema bekijken">
+      <TaskText>Vanuit startpagina?</TaskText>
+      <TaskPoints>10</TaskPoints>
+      <TaskCategory>4</TaskCategory>
+      <TaskDeadline>2017-02-11T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-11T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>1</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Mappen Mtg opruimen">
+      <TaskText />
+      <TaskPoints>9</TaskPoints>
+      <TaskCategory>3</TaskCategory>
+      <TaskDeadline>2017-02-18T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-18T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Plan Event once ">
+      <TaskText />
+      <TaskPoints>8</TaskPoints>
+      <TaskCategory>4</TaskCategory>
+      <TaskDeadline>2017-02-13T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-13T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>1</TaskHours>
+      <Objective1>Menu maken</Objective1>
+      <Objective2>operational</Objective2>
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Recurring tasks">
+      <TaskText>List voor speciale tasks zoals comics lezen of werkmail oid. 
+Auto add to tasklist</TaskText>
+      <TaskPoints>8</TaskPoints>
+      <TaskCategory>4</TaskCategory>
+      <TaskDeadline>2017-02-13T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-13T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>1</TaskHours>
       <Objective1 />
       <Objective2 />
       <Objective3 />
@@ -515,31 +886,16 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Mappen Mtg opruimen">
-      <TaskText />
-      <TaskPoints>7</TaskPoints>
-      <TaskCategory>3</TaskCategory>
-      <TaskDeadline>2017-02-18T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-18T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>0</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Dagschema bekijken">
-      <TaskText>Vanuit startpagina?</TaskText>
+    <Task TaskName="Automatische tasks">
+      <TaskText>Automatisch toevoegen:
+aankleden, scheren, ontbijt, lunch, comics, dailymtg, avondeten, werkmail, mail, opruimen, boodschappen, todo's</TaskText>
       <TaskPoints>7</TaskPoints>
       <TaskCategory>4</TaskCategory>
-      <TaskDeadline>2017-02-11T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-11T00:00:00+01:00</DateAdded>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>1</TaskHours>
+      <TaskMinutes>15</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <Objective1 />
       <Objective2 />
       <Objective3 />
@@ -563,29 +919,12 @@ Spel moet wel leuk zijn, waarom geven mensen er geld aan uit? </TaskText>
       <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Plan Event once ">
+    <Task TaskName="Backups maken">
       <TaskText />
-      <TaskPoints>6</TaskPoints>
-      <TaskCategory>4</TaskCategory>
-      <TaskDeadline>2017-02-13T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-13T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>1</TaskHours>
-      <Objective1>Menu maken</Objective1>
-      <Objective2>operational</Objective2>
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
-    <Task TaskName="Recurring tasks">
-      <TaskText>List voor speciale tasks zoals comics lezen of werkmail oid. 
-Auto add to tasklist</TaskText>
-      <TaskPoints>6</TaskPoints>
-      <TaskCategory>4</TaskCategory>
-      <TaskDeadline>2017-02-13T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-13T00:00:00+01:00</DateAdded>
+      <TaskPoints>5</TaskPoints>
+      <TaskCategory>3</TaskCategory>
+      <TaskDeadline>2017-02-28T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>1</TaskHours>
@@ -678,18 +1017,17 @@ Brick Break
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Automatische tasks">
-      <TaskText>Automatisch toevoegen:
-aankleden, scheren, ontbijt, lunch, comics, dailymtg, avondeten, werkmail, mail, opruimen, boodschappen, todo's</TaskText>
-      <TaskPoints>5</TaskPoints>
-      <TaskCategory>4</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+    <Task TaskName="Star Wars kijken">
+      <TaskText />
+      <TaskPoints>4</TaskPoints>
+      <TaskCategory>5</TaskCategory>
+      <TaskDeadline>2017-02-09T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-09T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>15</TaskMinutes>
-      <TaskHours>0</TaskHours>
-      <Objective1 />
-      <Objective2 />
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>3</TaskHours>
+      <Objective1>Downloaden</Objective1>
+      <Objective2>Kijken</Objective2>
       <Objective3 />
       <Objective4 />
       <ASAP>false</ASAP>
@@ -704,6 +1042,21 @@ aankleden, scheren, ontbijt, lunch, comics, dailymtg, avondeten, werkmail, mail,
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>2</TaskHours>
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Pokemon fusion?">
+      <TaskText>Altaria + Girafarig
+Muk + Whirlipede
+Tangrowth + Patrat
+Sandshrew + Skarmory</TaskText>
+      <TaskPoints>3</TaskPoints>
+      <TaskCategory>5</TaskCategory>
+      <TaskDeadline>2017-02-28T00:00:00</TaskDeadline>
+      <DateAdded>2016-11-30T16:52:56.3238701+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
@@ -913,18 +1266,35 @@ other stuff?</TaskText>
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Pokemon fusion?">
-      <TaskText>Altaria + Girafarig
-Muk + Whirlipede
-Tangrowth + Patrat
-Sandshrew + Skarmory</TaskText>
+    <Task TaskName="Search function">
+      <TaskText />
       <TaskPoints>3</TaskPoints>
-      <TaskCategory>5</TaskCategory>
-      <TaskDeadline>2017-02-28T00:00:00</TaskDeadline>
-      <DateAdded>2016-11-30T16:52:56.3238701+01:00</DateAdded>
+      <TaskCategory>4</TaskCategory>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-01-29T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
       <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Dr Strange kijken">
+      <TaskText />
+      <TaskPoints>2</TaskPoints>
+      <TaskCategory>5</TaskCategory>
+      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
+      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>2</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
@@ -944,22 +1314,6 @@ Sandshrew + Skarmory</TaskText>
       <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Star Wars kijken">
-      <TaskText />
-      <TaskPoints>2</TaskPoints>
-      <TaskCategory>5</TaskCategory>
-      <TaskDeadline>2017-02-09T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-09T00:00:00+01:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>3</TaskHours>
-      <Objective1>Downloaden</Objective1>
-      <Objective2>Kijken</Objective2>
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
     <Task TaskName="Draften">
       <TaskText />
       <TaskPoints>2</TaskPoints>
@@ -976,15 +1330,15 @@ Sandshrew + Skarmory</TaskText>
       <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Dr Strange kijken">
+    <Task TaskName="Bioshock">
       <TaskText />
       <TaskPoints>1</TaskPoints>
       <TaskCategory>5</TaskCategory>
-      <TaskDeadline>2017-02-15T00:00:00+01:00</TaskDeadline>
-      <DateAdded>2017-01-15T00:00:00+01:00</DateAdded>
+      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
+      <DateAdded>2017-02-01T00:00:00+01:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>0</TaskMinutes>
-      <TaskHours>2</TaskHours>
+      <TaskHours>0</TaskHours>
       <Objective1 />
       <Objective2 />
       <Objective3 />
@@ -1256,6 +1610,22 @@ Sandshrew + Skarmory</TaskText>
     </WeekDay>
   </WeekList>
   <HighScores>
+    <Days>
+      <Date>2017-02-02T00:00:00+01:00</Date>
+      <Score>340</Score>
+    </Days>
+    <Days>
+      <Date>2017-02-01T00:00:00+01:00</Date>
+      <Score>300</Score>
+    </Days>
+    <Days>
+      <Date>2017-01-31T00:00:00+01:00</Date>
+      <Score>120</Score>
+    </Days>
+    <Days>
+      <Date>2017-01-30T00:00:00+01:00</Date>
+      <Score>0</Score>
+    </Days>
     <Days>
       <Date>2017-01-29T00:00:00+01:00</Date>
       <Score>200</Score>

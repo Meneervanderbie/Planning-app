@@ -123,17 +123,22 @@ public class Task {
             taskDeadline = DateTime.Today;
             asap = false;
         }
-        else if (deadline == 1)
+        else if(deadline == 1)
+        {
+            taskDeadline = DateTime.Today.AddDays(1);
+            asap = false;
+        }
+        else if (deadline == 2)
         {
             taskDeadline = DateTime.MaxValue;
             asap = true;
         }
-        else if (deadline == 2)
+        else if (deadline == 3)
         {
             taskDeadline = DateTime.Today.AddDays(7);
             asap = false;
         }
-        else if (deadline == 3)
+        else if (deadline == 4)
         {
             taskDeadline = DateTime.Today.AddMonths(1);
             asap = false;
