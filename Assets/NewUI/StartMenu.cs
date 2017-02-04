@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
+using System;
 
 public class StartMenu : MonoBehaviour {
 
@@ -9,9 +9,11 @@ public class StartMenu : MonoBehaviour {
     public GameObject startTask;
     public GameObject planTask;
 
+    // Maybe display current day as well? 
     public Text currentPoints;
 
-    // Maybe display current day as well? 
+    // Display next task, with time to go to that task
+    public Text nextTask;
 
     // Display current daily points (and date?)
     public void Initialize()
@@ -35,5 +37,8 @@ public class StartMenu : MonoBehaviour {
     }
 
     // Display next planned task
-
+    public void NextTask()
+    {
+        // Can only do this once we have a fixed schedule?
+    }
 }

@@ -120,6 +120,7 @@ public class TaskList {
         return returnList;
     }
 
+
     // Sortby gives the criterium for sorting
     public List<Task> SortList(int sortBy)
     {
