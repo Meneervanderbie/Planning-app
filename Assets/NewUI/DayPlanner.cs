@@ -18,6 +18,8 @@ public class DayPlanner : MonoBehaviour {
     public InputField eventName;
     public InputField eventDescription;
 
+    // location?
+
     public InputField objective1;
     public InputField objective2;
     public InputField objective3;
@@ -30,6 +32,8 @@ public class DayPlanner : MonoBehaviour {
 
     public WeekDay weekDay;
     public string dayName;
+
+    public Event currentlyEditing;
 
     void OnEnable()
     {
@@ -78,6 +82,7 @@ public class DayPlanner : MonoBehaviour {
         // Instantiate text elements in the right place
         DateTime currentTime = new DateTime(1, 1, 1, 7, 0, 0);
         List<Event> eventList = day.weekDay;
+
         foreach (Event ev in eventList)
         {
             if (currentTime < ev.startTime)
@@ -89,6 +94,8 @@ public class DayPlanner : MonoBehaviour {
                 tempElements[2].text = String.Format("{0:HH:mm}", ev.startTime); 
             }
             GameObject eventText = Instantiate(eventPrefab, dayObject.transform) as GameObject;
+            Event tempEvent = ev;
+            eventText.GetComponent<Button>().onClick.AddListener(() => EditEvent(tempEvent));
             Text[] textElements = eventText.GetComponentsInChildren<Text>();
             textElements[0].text = String.Format("{0:HH:mm}", ev.startTime);
             textElements[1].text = ev.eventName;
@@ -103,12 +110,53 @@ public class DayPlanner : MonoBehaviour {
             tempElements[1].text = "Not planned";
             tempElements[2].text = String.Format("{0:HH:mm}", new DateTime(1, 1, 2, 0, 0, 0));
         }
+        ClearFields();
     }
 
     public void Back()
     {
         schedule.SetActive(true);
         gameObject.SetActive(false);
+    }
+
+    public void DeleteEvent()
+    {
+        if(currentlyEditing != null)
+        {
+            weekDay.DeleteEvent(currentlyEditing);
+            mm.SaveTaskList();
+            Initialize(weekDay);
+        }
+    }
+
+    public void ClearFields()
+    {
+        currentlyEditing = null;
+        eventName.text = "";
+        eventDescription.text = "";
+        objective1.text = "";
+        objective2.text = "";
+        objective3.text = "";
+        objective4.text = "";
+        startHours.value = 0;
+        startMinutes.value = 0;
+        endHours.value = 0;
+        endMinutes.value = 0;
+    }
+
+    public void EditEvent(Event ev)
+    {
+        currentlyEditing = ev;
+        eventName.text = ev.eventName;
+        eventDescription.text = ev.eventDescription;
+        objective1.text = ev.objective1;
+        objective2.text = ev.objective2;
+        objective3.text = ev.objective3;
+        objective4.text = ev.objective4;
+        startHours.value = ev.startTime.Hour + 7;
+        startMinutes.value = ev.startTime.Minute;
+        endHours.value = ev.endTime.Hour + 7;
+        endMinutes.value = ev.endTime.Minute;
     }
 
     // Submit button makes new event and saves to the tasklist.
@@ -139,6 +187,7 @@ public class DayPlanner : MonoBehaviour {
         Event newEvent = new Event(newName, newDescription, objective1.text, objective2.text, objective3.text, objective4.text, newLocation, startTime, endTime);
         // Add event to eventlist
         weekDay.AddEvent(newEvent);
+        weekDay.SortList();
 
         // Save Tasklist
         mm.SaveTaskList();

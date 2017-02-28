@@ -180,7 +180,7 @@ public class Task {
         tempValue *= categoryList[taskCategory].points;
         if (asap)
         {
-            tempValue *= 2;
+            tempValue *= 4;
         }
 
         taskPoints = (int)tempValue;

@@ -17,8 +17,8 @@ public class IO {
 
     public void Save(string filePath, TaskList list)
     {
-        XmlSerializer writer = new XmlSerializer(typeof(TaskList));
         FileStream stream = new FileStream(filePath, FileMode.Create);
+        XmlSerializer writer = new XmlSerializer(typeof(TaskList));
         writer.Serialize(stream, list);
         stream.Close();
     }

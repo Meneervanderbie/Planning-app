@@ -6,6 +6,7 @@ public class PlanEvent : MonoBehaviour {
     public GameObject planMenu;
     public GameObject planOnce;
     public GameObject schedule;
+    public Calendar calendar;
 
 	// Back button clicked
     public void Back()
@@ -18,6 +19,7 @@ public class PlanEvent : MonoBehaviour {
     public void OnceClicked()
     {
         planOnce.SetActive(true);
+        planOnce.GetComponent<PlanOnce>().Initialize();
         gameObject.SetActive(false);
     }
 
@@ -25,6 +27,13 @@ public class PlanEvent : MonoBehaviour {
     public void ScheduleClicked()
     {
         schedule.SetActive(true);
+        gameObject.SetActive(false);
+    }
+
+    public void CalendarClicked()
+    {
+        calendar.gameObject.SetActive(true);
+        calendar.Initialize();
         gameObject.SetActive(false);
     }
 

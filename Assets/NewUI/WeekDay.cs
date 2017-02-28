@@ -31,4 +31,28 @@ public class WeekDay {
         weekDay.Add(toAdd);
     }
 
+    public void DeleteEvent(Event toDelete)
+    {
+        weekDay.Remove(toDelete);
+    }
+
+    public void SortList()
+    {
+        List<Event> newList = new List<Event>();
+        while(weekDay.Count > 0)
+        {
+            Event toAdd = weekDay[0];
+            for (int i = 0; i < weekDay.Count; i++)
+            {
+                if(weekDay[i].startTime < toAdd.startTime)
+                {
+                    toAdd = weekDay[i];
+                }
+            }
+            newList.Add(toAdd);
+            weekDay.Remove(toAdd);
+        }
+        weekDay = newList;
+    }
+
 }

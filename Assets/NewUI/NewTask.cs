@@ -107,25 +107,31 @@ public class NewTask : MonoBehaviour {
     // When OK clicked, read all fields, make new task, save the tasklist and return to start. 
     public void AddTask()
     {
-        int hours = 0; 
-        int.TryParse(hourSelect.GetComponentInChildren<Text>().text, out hours);
-        int minutes = 0;
-        int.TryParse(minuteSelect.GetComponentInChildren<Text>().text, out minutes);
+        if (!mm.taskList.CheckIfNameExists(taskName.text) || editTask != null){
+            int hours = 0;
+            int.TryParse(hourSelect.GetComponentInChildren<Text>().text, out hours);
+            int minutes = 0;
+            int.TryParse(minuteSelect.GetComponentInChildren<Text>().text, out minutes);
 
-        if (editTask == null)
-        {
-            Task toAdd = new Task(taskName.text, description.text, objective1.text, objective2.text, objective3.text, objective4.text, hours, minutes, categories.value, deadline.value);
-            mm.taskList.AddTask(toAdd);
+            if (editTask == null)
+            {
+                Task toAdd = new Task(taskName.text, description.text, objective1.text, objective2.text, objective3.text, objective4.text, hours, minutes, categories.value, deadline.value);
+                mm.taskList.AddTask(toAdd);
+            }
+            else
+            {
+                editTask.Edit(taskName.text, description.text, objective1.text, objective2.text, objective3.text, objective4.text, hours, minutes, categories.value, deadline.value);
+            }
+
+            mm.SaveTaskList();
+
+            startMenu.SetActive(true);
+            gameObject.SetActive(false);
         }
         else
         {
-            editTask.Edit(taskName.text, description.text, objective1.text, objective2.text, objective3.text, objective4.text, hours, minutes, categories.value, deadline.value);
+            taskName.text += " - Name already exists";
         }
-
-        mm.SaveTaskList();
-
-        startMenu.SetActive(true);
-        gameObject.SetActive(false);
     }
 
     public void StopEdit()

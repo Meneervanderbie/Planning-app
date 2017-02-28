@@ -85,6 +85,18 @@ public class TaskList {
         taskList.Remove(task);
     }
 
+    public bool CheckIfNameExists(string taskName)
+    {
+        foreach(Task tName in taskList)
+        {
+            if(tName.taskName == taskName)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public List<Task> GetList()
     {
         return taskList;

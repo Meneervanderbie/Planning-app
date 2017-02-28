@@ -58,5 +58,4 @@ public class Schedule : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
-
 }
