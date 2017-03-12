@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class Calendar : MonoBehaviour {
 
     public GameObject planEvent;
+    public DayPlanner dayPlanner;
+    public MenuManager mm;
 
     public GameObject weekPrefab;
     public Button dayPrefab;
@@ -138,6 +140,50 @@ public class Calendar : MonoBehaviour {
 
     public void ChooseDay(DateTime date)
     {
-
+        dayPlanner.gameObject.SetActive(true);
+        // check if chosen date already exists in schedule
+        if (mm.taskList.agenda == null)
+        {
+            mm.taskList.agenda = new List<WeekDay>();
+        }
+        bool dayFound = false;
+        DateTime highestFound = DateTime.Today;
+        if (mm.taskList.agenda.Count == 0)
+        {
+            mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, String.Format("mmmm, YYYY", highestFound), highestFound));
+            mm.SaveTaskList();
+        }
+        foreach (WeekDay wd in mm.taskList.agenda)
+        {
+            if(wd.dayDate == date)
+            {
+                dayPlanner.Initialize(wd);
+                gameObject.SetActive(false);
+                dayFound = true;
+                break;        
+            }
+            else
+            {
+                if(wd.dayDate > highestFound)
+                {
+                    highestFound = wd.dayDate;
+                }
+            }
+        }
+        if (!dayFound)
+        {
+            // Start creating new days from planning until you reach the requested date
+            while (highestFound != date)
+            {
+                highestFound = highestFound.AddDays(1);
+                mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, String.Format("mmmm, YYYY", highestFound), highestFound));
+                mm.SaveTaskList();
+                if (highestFound == date)
+                {
+                    dayPlanner.Initialize(mm.taskList.agenda[mm.taskList.agenda.Count-1]);
+                    gameObject.SetActive(false);
+                }
+            }
+        }
     }
 }

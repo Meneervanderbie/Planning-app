@@ -18,6 +18,10 @@ public class TaskList {
     [XmlArrayItem("WeekDay")]
     public List<WeekDay> weekList;
 
+    [XmlArray("Agenda")]
+    [XmlArrayItem("WeekDay")]
+    public List<WeekDay> agenda;
+
     // list of days with points and date. probably have max number of 20 days?
     [XmlArray("HighScores")]
     [XmlArrayItem("Days")]

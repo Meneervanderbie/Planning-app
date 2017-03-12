@@ -14,6 +14,9 @@ public class WeekDay {
     [XmlAttribute("DayName")]
     public string dayName;
 
+    [XmlAttribute("DayDate")]
+    public DateTime dayDate;
+
     public WeekDay()
     {
 
@@ -23,6 +26,13 @@ public class WeekDay {
     {
         dayName = day;
         weekDay = new List<Event>();
+    }
+
+    public WeekDay(List<Event> wd, string dName, DateTime date)
+    {
+        weekDay = wd;
+        dayName = dName;
+        dayDate = date;
     }
 
     public void AddEvent(Event toAdd)

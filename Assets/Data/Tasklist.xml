@@ -1438,7 +1438,7 @@ Sandshrew + Skarmory</TaskText>
     </Category>
   </CategoryList>
   <WeekList>
-    <WeekDay DayName="Monday">
+    <WeekDay DayName="Monday" DayDate="0001-01-01T00:00:00">
       <DayPlanning>
         <Event EventName="Ochtendritueel">
           <EventDescription />
@@ -1478,7 +1478,7 @@ Sandshrew + Skarmory</TaskText>
         </Event>
       </DayPlanning>
     </WeekDay>
-    <WeekDay DayName="Tuesday">
+    <WeekDay DayName="Tuesday" DayDate="0001-01-01T00:00:00">
       <DayPlanning>
         <Event EventName="Ochtendritueel">
           <EventDescription>Nog objectives toevoegen?</EventDescription>
@@ -1524,7 +1524,7 @@ Sandshrew + Skarmory</TaskText>
         </Event>
       </DayPlanning>
     </WeekDay>
-    <WeekDay DayName="Wednesday">
+    <WeekDay DayName="Wednesday" DayDate="0001-01-01T00:00:00">
       <DayPlanning>
         <Event EventName="Ochtendritueel">
           <EventDescription>Ochtenddingen</EventDescription>
@@ -1552,7 +1552,7 @@ Sandshrew + Skarmory</TaskText>
         </Event>
       </DayPlanning>
     </WeekDay>
-    <WeekDay DayName="Thursday">
+    <WeekDay DayName="Thursday" DayDate="0001-01-01T00:00:00">
       <DayPlanning>
         <Event EventName="Ochtendritueel">
           <EventDescription>Stuff en zo</EventDescription>
@@ -1586,7 +1586,7 @@ Sandshrew + Skarmory</TaskText>
         </Event>
       </DayPlanning>
     </WeekDay>
-    <WeekDay DayName="Friday">
+    <WeekDay DayName="Friday" DayDate="0001-01-01T00:00:00">
       <DayPlanning>
         <Event EventName="Ochtendritueel">
           <EventDescription>Stuff en zo</EventDescription>
@@ -1620,7 +1620,7 @@ Sandshrew + Skarmory</TaskText>
         </Event>
       </DayPlanning>
     </WeekDay>
-    <WeekDay DayName="Saturday">
+    <WeekDay DayName="Saturday" DayDate="0001-01-01T00:00:00">
       <DayPlanning>
         <Event EventName="Ochtendritueel">
           <EventDescription>Stuff en zo</EventDescription>
@@ -1636,7 +1636,7 @@ Sandshrew + Skarmory</TaskText>
         </Event>
       </DayPlanning>
     </WeekDay>
-    <WeekDay DayName="Sunday">
+    <WeekDay DayName="Sunday" DayDate="0001-01-01T00:00:00">
       <DayPlanning>
         <Event EventName="Ochtendritueel">
           <EventDescription>Stuff en zo</EventDescription>
@@ -1653,6 +1653,238 @@ Sandshrew + Skarmory</TaskText>
       </DayPlanning>
     </WeekDay>
   </WeekList>
+  <Agenda>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-12T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription>Stuff en zo</EventDescription>
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:00:00</EventStart>
+          <EventEnd>0001-01-01T09:00:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-13T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T07:00:00</EventStart>
+          <EventEnd>0001-01-01T08:00:00</EventEnd>
+        </Event>
+        <Event EventName="Fietsen">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:15:00</EventStart>
+          <EventEnd>0001-01-01T08:30:00</EventEnd>
+        </Event>
+        <Event EventName="Project GMD1A @ blw.2.167">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:30:00</EventStart>
+          <EventEnd>0001-01-01T11:45:00</EventEnd>
+        </Event>
+        <Event EventName="Lunchpauze">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T11:45:00</EventStart>
+          <EventEnd>0001-01-01T12:30:00</EventEnd>
+        </Event>
+        <Event EventName="Examen GAM40/41 @ blw.2.130">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T12:30:00</EventStart>
+          <EventEnd>0001-01-01T17:15:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-14T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription>Nog objectives toevoegen?</EventDescription>
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T07:00:00</EventStart>
+          <EventEnd>0001-01-01T08:00:00</EventEnd>
+        </Event>
+        <Event EventName="Fietsen">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:15:00</EventStart>
+          <EventEnd>0001-01-01T08:30:00</EventEnd>
+        </Event>
+        <Event EventName="Meelopers ophalen">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:30:00</EventStart>
+          <EventEnd>0001-01-01T08:45:00</EventEnd>
+        </Event>
+        <Event EventName="Pauze">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T11:45:00</EventStart>
+          <EventEnd>0001-01-01T12:30:00</EventEnd>
+        </Event>
+        <Event EventName="Gamelab 2e/3ejaars @ blw.2/130">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T14:15:00</EventStart>
+          <EventEnd>0001-01-01T15:45:00</EventEnd>
+        </Event>
+        <Event EventName="Dev GAM21 @ blw.2.130">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T15:45:00</EventStart>
+          <EventEnd>0001-01-01T17:15:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-15T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription>Ochtenddingen</EventDescription>
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T07:00:00</EventStart>
+          <EventEnd>0001-01-01T08:00:00</EventEnd>
+        </Event>
+        <Event EventName="Lunch">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T12:00:00</EventStart>
+          <EventEnd>0001-01-01T13:00:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+        <Event EventName="Willeke">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T20:00:00</EventStart>
+          <EventEnd>0001-01-01T23:59:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-16T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription>Stuff en zo</EventDescription>
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T07:00:00</EventStart>
+          <EventEnd>0001-01-01T08:00:00</EventEnd>
+        </Event>
+        <Event EventName="Fietsen">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:15:00</EventStart>
+          <EventEnd>0001-01-01T08:30:00</EventEnd>
+        </Event>
+        <Event EventName="SLB + Dev GAM21 @ zwt.2.027">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T12:30:00</EventStart>
+          <EventEnd>0001-01-01T15:00:00</EventEnd>
+        </Event>
+        <Event EventName="Vergadering ">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T15:45:00</EventStart>
+          <EventEnd>0001-01-01T17:15:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-17T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription>Stuff en zo</EventDescription>
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T07:00:00</EventStart>
+          <EventEnd>0001-01-01T08:00:00</EventEnd>
+        </Event>
+        <Event EventName="SLB">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T11:45:00</EventStart>
+          <EventEnd>0001-01-01T12:30:00</EventEnd>
+        </Event>
+        <Event EventName="Gamelab 2ejaars @ blw.2.130">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T12:30:00</EventStart>
+          <EventEnd>0001-01-01T15:45:00</EventEnd>
+        </Event>
+        <Event EventName="Gamelab @ blw.2.130">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T12:30:00</EventStart>
+          <EventEnd>0001-01-01T15:45:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-18T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription>Stuff en zo</EventDescription>
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:00:00</EventStart>
+          <EventEnd>0001-01-01T09:00:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+    <WeekDay DayName="mmmm, YYYY" DayDate="2017-03-19T00:00:00+01:00">
+      <DayPlanning>
+        <Event EventName="Ochtendritueel">
+          <EventDescription>Stuff en zo</EventDescription>
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T08:00:00</EventStart>
+          <EventEnd>0001-01-01T09:00:00</EventEnd>
+        </Event>
+        <Event EventName="Journaal">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T18:00:00</EventStart>
+          <EventEnd>0001-01-01T18:30:00</EventEnd>
+        </Event>
+      </DayPlanning>
+    </WeekDay>
+  </Agenda>
   <HighScores>
     <Days>
       <Date>2017-03-12T00:00:00+01:00</Date>

@@ -7,6 +7,7 @@ public class DayPlanner : MonoBehaviour {
 
     public MenuManager mm;
     public GameObject schedule;
+    public GameObject calendar;
 
     // Should not be a button? 
     public Button dayButton;
@@ -115,8 +116,16 @@ public class DayPlanner : MonoBehaviour {
 
     public void Back()
     {
-        schedule.SetActive(true);
-        gameObject.SetActive(false);
+        if (weekDay.dayDate != DateTime.MinValue)
+        {
+            calendar.SetActive(true);
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            schedule.SetActive(true);
+            gameObject.SetActive(false);
+        }
     }
 
     public void DeleteEvent()
