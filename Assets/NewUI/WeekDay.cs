@@ -35,6 +35,17 @@ public class WeekDay {
         dayDate = date;
     }
 
+    public void ChangeDate(DateTime date)
+    {
+        foreach(Event ev in weekDay)
+        {
+            DateTime newStart = new DateTime(date.Year, date.Month, date.Day, ev.startTime.Hour, ev.startTime.Minute, ev.startTime.Second);
+            ev.startTime = newStart;
+            DateTime newEnd = new DateTime(date.Year, date.Month, date.Day, ev.endTime.Hour, ev.endTime.Minute, ev.endTime.Second);
+            ev.endTime = newEnd;
+        }
+    }
+
     public void AddEvent(Event toAdd)
     {
         // Probably sort by startTime order?

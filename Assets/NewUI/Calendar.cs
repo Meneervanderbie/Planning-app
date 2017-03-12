@@ -150,7 +150,8 @@ public class Calendar : MonoBehaviour {
         DateTime highestFound = DateTime.Today;
         if (mm.taskList.agenda.Count == 0)
         {
-            mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, String.Format("mmmm, YYYY", highestFound), highestFound));
+            mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("MMMM, yyyy"), highestFound));
+            mm.taskList.agenda[mm.taskList.agenda.Count-1].ChangeDate(date);
             mm.SaveTaskList();
         }
         foreach (WeekDay wd in mm.taskList.agenda)
@@ -176,7 +177,8 @@ public class Calendar : MonoBehaviour {
             while (highestFound != date)
             {
                 highestFound = highestFound.AddDays(1);
-                mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, String.Format("mmmm, YYYY", highestFound), highestFound));
+                mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("MMMM, yyyy"), highestFound));
+                mm.taskList.agenda[mm.taskList.agenda.Count-1].ChangeDate(date);
                 mm.SaveTaskList();
                 if (highestFound == date)
                 {
