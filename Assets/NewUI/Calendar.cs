@@ -62,7 +62,14 @@ public class Calendar : MonoBehaviour {
             string buttonText = dayCounter.ToString();
             newButton.GetComponentInChildren<Text>().text = buttonText.ToString();
             DateTime setDate = new DateTime(year, month, dayCounter);
-            newButton.onClick.AddListener(() => ChooseDay(setDate));
+            if(setDate < DateTime.Today)
+            {
+                newButton.image.color = Color.grey;
+            }
+            else
+            {
+                newButton.onClick.AddListener(() => ChooseDay(setDate));
+            }
             dayCounter++;
             daysInMonth--;
         }
@@ -76,6 +83,14 @@ public class Calendar : MonoBehaviour {
                 newButton.GetComponentInChildren<Text>().text = buttonText.ToString();
                 DateTime setDate = new DateTime(year, month, dayCounter);
                 newButton.onClick.AddListener(() => ChooseDay(setDate));
+                if (setDate < DateTime.Today)
+                {
+                    newButton.image.color = Color.grey;
+                }
+                else
+                {
+                    newButton.onClick.AddListener(() => ChooseDay(setDate));
+                }
                 dayCounter++;
                 daysInMonth--;
             }
@@ -89,6 +104,14 @@ public class Calendar : MonoBehaviour {
             newButton.GetComponentInChildren<Text>().text = buttonText.ToString();
             DateTime setDate = new DateTime(year, month, dayCounter);
             newButton.onClick.AddListener(() => ChooseDay(setDate));
+            if (setDate < DateTime.Today)
+            {
+                newButton.image.color = Color.grey;
+            }
+            else
+            {
+                newButton.onClick.AddListener(() => ChooseDay(setDate));
+            }
             dayCounter++;
             lastSeven++;
         }
