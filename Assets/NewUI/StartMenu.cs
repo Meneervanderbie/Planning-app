@@ -54,7 +54,7 @@ public class StartMenu : MonoBehaviour {
             DateTime nextTime = DateTime.Today.AddDays(1);
             foreach (Event ev in currentDay.weekDay)
             {
-                if (ev.startTime > DateTime.Now && ev.startTime > nextTime)
+                if (ev.startTime > DateTime.Now && ev.startTime < nextTime)
                 {
                     nextTaskText.text = "Next: " + ev.eventName;
                     upcomingEvent = ev;

@@ -63,8 +63,9 @@ public class Calendar : MonoBehaviour {
             Button newButton = Instantiate(dayPrefab, newBar.transform) as Button;
             string buttonText = dayCounter.ToString();
             newButton.GetComponentInChildren<Text>().text = buttonText.ToString();
-            DateTime setDate = new DateTime(year, month, dayCounter);
-            if(setDate < DateTime.Today)
+            int dayCount = dayCounter;
+            DateTime setDate = new DateTime(year, month, dayCount);
+            if (setDate < DateTime.Today)
             {
                 newButton.image.color = Color.grey;
             }
@@ -83,7 +84,8 @@ public class Calendar : MonoBehaviour {
                 Button newButton = Instantiate(dayPrefab, newBar.transform) as Button;
                 string buttonText = dayCounter.ToString();
                 newButton.GetComponentInChildren<Text>().text = buttonText.ToString();
-                DateTime setDate = new DateTime(year, month, dayCounter);
+                int dayCount = dayCounter;
+                DateTime setDate = new DateTime(year, month, dayCount);
                 newButton.onClick.AddListener(() => ChooseDay(setDate));
                 if (setDate < DateTime.Today)
                 {
@@ -104,7 +106,8 @@ public class Calendar : MonoBehaviour {
             Button newButton = Instantiate(dayPrefab, newBar.transform) as Button;
             string buttonText = dayCounter.ToString();
             newButton.GetComponentInChildren<Text>().text = buttonText.ToString();
-            DateTime setDate = new DateTime(year, month, dayCounter);
+            int dayCount = dayCounter;
+            DateTime setDate = new DateTime(year, month, dayCount);
             newButton.onClick.AddListener(() => ChooseDay(setDate));
             if (setDate < DateTime.Today)
             {
@@ -150,8 +153,9 @@ public class Calendar : MonoBehaviour {
         DateTime highestFound = DateTime.Today;
         if (mm.taskList.agenda.Count == 0)
         {
-            mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("MMMM, yyyy"), highestFound));
-            mm.taskList.agenda[mm.taskList.agenda.Count-1].ChangeDate(date);
+            WeekDay tempDay = new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("dd MMMM, yyyy"), highestFound);
+            tempDay.ChangeDate(highestFound);
+            mm.taskList.agenda.Add(tempDay);
             mm.SaveTaskList();
         }
         foreach (WeekDay wd in mm.taskList.agenda)
@@ -177,8 +181,9 @@ public class Calendar : MonoBehaviour {
             while (highestFound != date)
             {
                 highestFound = highestFound.AddDays(1);
-                mm.taskList.agenda.Add(new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("MMMM, yyyy"), highestFound));
-                mm.taskList.agenda[mm.taskList.agenda.Count-1].ChangeDate(date);
+                WeekDay tempDay = new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("dd MMMM, yyyy"), highestFound);
+                tempDay.ChangeDate(highestFound);
+                mm.taskList.agenda.Add(tempDay);
                 mm.SaveTaskList();
                 if (highestFound == date)
                 {
