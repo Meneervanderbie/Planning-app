@@ -154,7 +154,7 @@ public class Calendar : MonoBehaviour {
         if (mm.taskList.agenda.Count == 0)
         {
             WeekDay tempDay = new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("dd MMMM, yyyy"), highestFound);
-            tempDay.ChangeDate(highestFound);
+            tempDay.ChangeDate();
             mm.taskList.agenda.Add(tempDay);
             mm.SaveTaskList();
         }
@@ -182,7 +182,7 @@ public class Calendar : MonoBehaviour {
             {
                 highestFound = highestFound.AddDays(1);
                 WeekDay tempDay = new WeekDay(mm.taskList.weekList[((int)(highestFound.DayOfWeek) + 6) % 7].weekDay, highestFound.ToString("dd MMMM, yyyy"), highestFound);
-                tempDay.ChangeDate(highestFound);
+                tempDay.ChangeDate();
                 mm.taskList.agenda.Add(tempDay);
                 mm.SaveTaskList();
                 if (highestFound == date)

@@ -35,13 +35,13 @@ public class WeekDay {
         dayDate = date;
     }
 
-    public void ChangeDate(DateTime date)
+    public void ChangeDate()
     {
         foreach(Event ev in weekDay)
         {
-            DateTime newStart = new DateTime(date.Year, date.Month, date.Day, ev.startTime.Hour, ev.startTime.Minute, ev.startTime.Second);
+            DateTime newStart = new DateTime(dayDate.Year, dayDate.Month, dayDate.Day, ev.startTime.Hour, ev.startTime.Minute, ev.startTime.Second);
             ev.startTime = newStart;
-            DateTime newEnd = new DateTime(date.Year, date.Month, date.Day, ev.endTime.Hour, ev.endTime.Minute, ev.endTime.Second);
+            DateTime newEnd = new DateTime(dayDate.Year, dayDate.Month, dayDate.Day, ev.endTime.Hour, ev.endTime.Minute, ev.endTime.Second);
             ev.endTime = newEnd;
         }
     }

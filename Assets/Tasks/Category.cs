@@ -13,16 +13,18 @@ public class Category {
     [XmlElement("CategoryPoints")]
     public int points;
 
-    // color thing etc;
+    [XmlElement("CategoryColor")]
+    public string categoryColor;
 
     public Category()
     {
 
     }
 
-    public Category(string name, int number)
+    public Category(string name, int number, string color)
     {
         categoryName = name;
         categoryNumber = number;
+        categoryColor = color;
     }
 }

@@ -24,6 +24,7 @@ public class StartMenu : MonoBehaviour {
     // Display current daily points (and date?)
     public void Initialize()
     {
+        //print(DateTime.Now);
         currentPoints.text = "Points today: " + mm.taskList.highscores[0].score;
         if(mm.taskList.agenda.Count > 0){
             // step 0: find the correct day
@@ -38,6 +39,7 @@ public class StartMenu : MonoBehaviour {
             // step 1: find the current task/event and display
             foreach (Event ev in currentDay.weekDay)
             {
+                //print(ev.startTime + " " + ev.endTime);
                 if (ev.startTime <= DateTime.Now && ev.endTime > DateTime.Now)
                 {
                     currentTaskText.text = "Current: " + ev.eventName;

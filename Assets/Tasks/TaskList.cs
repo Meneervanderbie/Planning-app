@@ -75,6 +75,7 @@ public class TaskList {
                 }
             }
         }
+        RemovePastDays();
     }
 
     // TODO: prevent duplicate tasks from being added
@@ -136,6 +137,20 @@ public class TaskList {
         return returnList;
     }
 
+    // Removes all the previous days from Agenda
+    public void RemovePastDays()
+    {
+        List<WeekDay> tempList = new List<WeekDay>();
+
+        foreach(WeekDay wDay in agenda)
+        {
+            if(wDay.dayDate >= DateTime.Today)
+            {
+                tempList.Add(wDay);
+            }
+        }
+        agenda = tempList;
+    }
 
     // Sortby gives the criterium for sorting
     public List<Task> SortList(int sortBy)
