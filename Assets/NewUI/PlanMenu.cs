@@ -6,6 +6,7 @@ public class PlanMenu : MonoBehaviour {
     public GameObject startMenu;
     public GameObject planTask;
     public GameObject planEvent;
+    public Categories categories;
 
     public void Back()
     {
@@ -22,6 +23,13 @@ public class PlanMenu : MonoBehaviour {
     public void PlanEvent()
     {
         planEvent.SetActive(true);
+        gameObject.SetActive(false);
+    }
+
+    public void EditCategories()
+    {
+        categories.gameObject.SetActive(true);
+        categories.Initialize();
         gameObject.SetActive(false);
     }
 

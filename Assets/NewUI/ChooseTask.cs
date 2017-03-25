@@ -75,8 +75,11 @@ public class ChooseTask : MonoBehaviour {
         }
 
         firstButton.GetComponentInChildren<Text>().text = tasklist[first].taskName;
+        firstButton.image.color = GetColorFromString(mm.taskList.categoryList[tasklist[first].taskCategory].categoryColor);
         secondButton.GetComponentInChildren<Text>().text = tasklist[second].taskName;
+        secondButton.image.color = GetColorFromString(mm.taskList.categoryList[tasklist[second].taskCategory].categoryColor);
         thirdButton.GetComponentInChildren<Text>().text = tasklist[third].taskName;
+        thirdButton.image.color = GetColorFromString(mm.taskList.categoryList[tasklist[third].taskCategory].categoryColor);
     }
 
 	// Back button clicked
@@ -97,5 +100,48 @@ public class ChooseTask : MonoBehaviour {
     }
 
     // Display next task
+
+    public Color GetColorFromString(string colStr)
+    {
+        int count = 0;
+        // get r
+        string rStr = "";
+        rStr += colStr[count];
+        count++;
+        while (colStr[count] != ',')
+        {
+            rStr += colStr[count];
+            count++;
+        }
+        float r;
+        float.TryParse(rStr, out r);
+        count++;
+        // get g
+        string gStr = "";
+        gStr += colStr[count];
+        count++;
+        while (colStr[count] != ',')
+        {
+            gStr += colStr[count];
+            count++;
+        }
+        float g;
+        float.TryParse(gStr, out g);
+        count++;
+        // get b
+        string bStr = "";
+        bStr += colStr[count];
+        count++;
+        for (int i = count; i < colStr.Length; i++)
+        {
+            bStr += colStr[i];
+        }
+        float b;
+        float.TryParse(bStr, out b);
+
+        //print(r + " " + g + " " + b);
+
+        return new Color(r, g, b);
+    }
 
 }
