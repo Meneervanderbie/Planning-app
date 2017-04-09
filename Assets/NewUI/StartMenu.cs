@@ -8,6 +8,7 @@ public class StartMenu : MonoBehaviour {
 
     public GameObject startTask;
     public GameObject planTask;
+    public GameObject ce;
 
     // Maybe display current day as well? 
     public Text currentPoints;
@@ -99,9 +100,9 @@ public class StartMenu : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
-    // Display next planned task
-    //public void NextTask()
-    //{
-    //    // Can only do this once we have a fixed schedule?
-    //}
+    public void CurrentEvent()
+    {
+        ce.SetActive(true);
+        gameObject.SetActive(false);
+    }
 }

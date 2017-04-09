@@ -162,9 +162,9 @@ public class DayPlanner : MonoBehaviour {
         objective2.text = ev.objective2;
         objective3.text = ev.objective3;
         objective4.text = ev.objective4;
-        startHours.value = ev.startTime.Hour + 7;
+        startHours.value = ev.startTime.Hour - 7;
         startMinutes.value = ev.startTime.Minute;
-        endHours.value = ev.endTime.Hour + 7;
+        endHours.value = ev.endTime.Hour - 7;
         endMinutes.value = ev.endTime.Minute;
     }
 

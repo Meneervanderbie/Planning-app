@@ -30,9 +30,14 @@ public class WeekDay {
 
     public WeekDay(List<Event> wd, string dName, DateTime date)
     {
-        weekDay = wd;
+        weekDay = new List<Event>();
+        foreach(Event ev in wd)
+        {
+            weekDay.Add(new Event(ev.eventName, ev.eventDescription, ev.objective1, ev.objective2, ev.objective3, ev.objective4, ev.eventLocation,  ev.startTime, ev.endTime));
+        }
         dayName = dName;
         dayDate = date;
+        ChangeDate();
     }
 
     public void ChangeDate()
@@ -59,6 +64,8 @@ public class WeekDay {
 
     public void SortList()
     {
+        ChangeDate();
+
         List<Event> newList = new List<Event>();
         while(weekDay.Count > 0)
         {
@@ -71,6 +78,7 @@ public class WeekDay {
                 }
             }
             newList.Add(toAdd);
+            //Debug.Log(toAdd.startTime);
             weekDay.Remove(toAdd);
         }
         weekDay = newList;

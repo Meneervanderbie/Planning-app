@@ -10,6 +10,10 @@ public class TaskList {
     [XmlArrayItem("Task")]
     public List<Task> taskList;
 
+    [XmlArray("DailyList")]
+    [XmlArrayItem("Task")]
+    public List<Task> dailyList;
+
     [XmlArray("CategoryList")]
     [XmlArrayItem("Category")]
     public List<Category> categoryList;
@@ -55,6 +59,10 @@ public class TaskList {
         {
             highscores = new List<Day>();
             highscores.Add(new Day(DateTime.Today, 0));
+        }
+        if(dailyList == null)
+        {
+            dailyList = new List<Task>();
         }
         else
         {

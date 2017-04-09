@@ -5,6 +5,7 @@ public class PlanMenu : MonoBehaviour {
 
     public GameObject startMenu;
     public GameObject planTask;
+    public GameObject planDaily;
     public GameObject planEvent;
     public Categories categories;
 
@@ -17,6 +18,12 @@ public class PlanMenu : MonoBehaviour {
     public void PlanTask()
     {
         planTask.SetActive(true);
+        gameObject.SetActive(false);
+    }
+
+    public void PlanDaily()
+    {
+        planDaily.SetActive(true);
         gameObject.SetActive(false);
     }
 

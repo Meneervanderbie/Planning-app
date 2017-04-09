@@ -21,6 +21,7 @@ public class NewTask : MonoBehaviour {
     public Dropdown deadline;
 
     public Task editTask;
+    public bool dailyTask;
 
     // back button
     public void Back()
@@ -116,7 +117,15 @@ public class NewTask : MonoBehaviour {
             if (editTask == null)
             {
                 Task toAdd = new Task(taskName.text, description.text, objective1.text, objective2.text, objective3.text, objective4.text, hours, minutes, categories.value, deadline.value);
-                mm.taskList.AddTask(toAdd);
+                if (dailyTask)
+                {
+                    mm.taskList.dailyList.Add(toAdd);
+                    dailyTask = false;
+                }
+                else
+                {
+                    mm.taskList.AddTask(toAdd);
+                }
             }
             else
             {
