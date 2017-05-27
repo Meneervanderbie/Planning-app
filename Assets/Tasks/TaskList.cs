@@ -216,4 +216,18 @@ public class TaskList {
         }
         return sortedList;
     }
+
+    public Color GetDateColor(DateTime date) {
+        foreach (WeekDay wd in agenda) {
+            if(wd.dayDate == date) {
+                if(wd.work == true) {
+                    return Color.red;
+                }
+                else {
+                    return Color.blue;
+                }
+            }
+        }
+        return Color.white;
+    }
 }

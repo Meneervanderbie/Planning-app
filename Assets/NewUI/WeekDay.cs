@@ -17,6 +17,9 @@ public class WeekDay {
     [XmlAttribute("DayDate")]
     public DateTime dayDate;
 
+    [XmlAttribute("WorkDay")]
+    public bool work;
+
     public WeekDay()
     {
 

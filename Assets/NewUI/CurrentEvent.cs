@@ -100,6 +100,7 @@ public class CurrentEvent : MonoBehaviour {
         }
 
         // Fill highest points
+        mm.taskList.SortList(2);
         pointTasks = new Task[3];
         for (int i = 0; i < mm.taskList.taskList.Count; i++)
         {

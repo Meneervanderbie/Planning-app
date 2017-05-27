@@ -17,6 +17,8 @@ public class Calendar : MonoBehaviour {
     public Text calendarMonthName;
 
     public DateTime monthViewing;
+    public enum editState {Edit, Work, Free};
+    public editState currentEdit = editState.Edit;
 
     public void Back()
     {
@@ -29,6 +31,18 @@ public class Calendar : MonoBehaviour {
     {
         monthViewing = DateTime.Now;
         GetMonth(monthViewing.Year, monthViewing.Month);
+    }
+
+    public void Edit() {
+        currentEdit = editState.Edit;
+    }
+
+    public void Work() {
+        currentEdit = editState.Work;
+    }
+
+    public void Free() {
+        currentEdit = editState.Free;
     }
 
     public void GetMonth(int yr, int mnt)
@@ -72,6 +86,7 @@ public class Calendar : MonoBehaviour {
             else
             {
                 newButton.onClick.AddListener(() => ChooseDay(setDate));
+                newButton.image.color = GetDateColor(setDate);
             }
             dayCounter++;
             daysInMonth--;
@@ -94,6 +109,7 @@ public class Calendar : MonoBehaviour {
                 else
                 {
                     newButton.onClick.AddListener(() => ChooseDay(setDate));
+                    newButton.image.color = GetDateColor(setDate);
                 }
                 dayCounter++;
                 daysInMonth--;
@@ -116,6 +132,7 @@ public class Calendar : MonoBehaviour {
             else
             {
                 newButton.onClick.AddListener(() => ChooseDay(setDate));
+                newButton.image.color = GetDateColor(setDate);
             }
             dayCounter++;
             lastSeven++;
@@ -127,6 +144,10 @@ public class Calendar : MonoBehaviour {
             newButton.GetComponentInChildren<Text>().text = buttonText.ToString();
             newButton.image.color = Color.grey;
         }
+    }
+
+    public Color GetDateColor(DateTime date) {
+        return mm.taskList.GetDateColor(date);
     }
 
     public void prevMonth()
@@ -161,10 +182,22 @@ public class Calendar : MonoBehaviour {
         {
             if(wd.dayDate == date)
             {
-                dayPlanner.Initialize(wd);
-                gameObject.SetActive(false);
                 dayFound = true;
-                break;        
+                if(currentEdit == editState.Edit) {
+                    dayPlanner.Initialize(wd);
+                    gameObject.SetActive(false);
+                    break;
+                }
+                else if(currentEdit == editState.Work) {
+                    wd.work = true;
+                    Initialize();
+                    break;
+                }
+                else {
+                    wd.work = false;
+                    Initialize();
+                    break;
+                }
             }
             else
             {
