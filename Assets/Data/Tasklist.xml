@@ -65,22 +65,6 @@
       <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Gesprek Jan aanwezigheid">
-      <TaskText />
-      <TaskPoints>186</TaskPoints>
-      <TaskCategory>0</TaskCategory>
-      <TaskDeadline>2017-05-28T00:00:00+02:00</TaskDeadline>
-      <DateAdded>2017-05-21T00:00:00+02:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>0</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>false</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
     <Task TaskName="Ris lijst veranderen">
       <TaskText>Vragen Gerda / Peter: Als veranderen, vervallen dan de cijfers? </TaskText>
       <TaskPoints>40</TaskPoints>
@@ -402,22 +386,6 @@
       <ASAP>true</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
-    <Task TaskName="Zalf kopen">
-      <TaskText />
-      <TaskPoints>20</TaskPoints>
-      <TaskCategory>3</TaskCategory>
-      <TaskDeadline>9999-12-31T23:59:59.9999999</TaskDeadline>
-      <DateAdded>2017-05-05T00:00:00+02:00</DateAdded>
-      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
-      <TaskMinutes>0</TaskMinutes>
-      <TaskHours>0</TaskHours>
-      <Objective1 />
-      <Objective2 />
-      <Objective3 />
-      <Objective4 />
-      <ASAP>true</ASAP>
-      <TaskTime>PT0S</TaskTime>
-    </Task>
     <Task TaskName="Agrarian Skies: Nether Wart farm">
       <TaskText />
       <TaskPoints>20</TaskPoints>
@@ -468,7 +436,7 @@
     </Task>
     <Task TaskName="Data onderzoek verwerken">
       <TaskText />
-      <TaskPoints>16</TaskPoints>
+      <TaskPoints>17</TaskPoints>
       <TaskCategory>1</TaskCategory>
       <TaskDeadline>2017-05-31T00:00:00+02:00</TaskDeadline>
       <DateAdded>2017-05-24T00:00:00+02:00</DateAdded>
@@ -611,6 +579,22 @@ Auto add to tasklist</TaskText>
       <Objective3 />
       <Objective4 />
       <ASAP>true</ASAP>
+      <TaskTime>PT0S</TaskTime>
+    </Task>
+    <Task TaskName="Gesprek Jan aanwezigheid">
+      <TaskText />
+      <TaskPoints>11</TaskPoints>
+      <TaskCategory>0</TaskCategory>
+      <TaskDeadline>2017-06-03T00:00:00+02:00</TaskDeadline>
+      <DateAdded>2017-05-27T00:00:00+02:00</DateAdded>
+      <DatePlanned>0001-01-01T00:00:00</DatePlanned>
+      <TaskMinutes>0</TaskMinutes>
+      <TaskHours>0</TaskHours>
+      <Objective1 />
+      <Objective2 />
+      <Objective3 />
+      <Objective4 />
+      <ASAP>false</ASAP>
       <TaskTime>PT0S</TaskTime>
     </Task>
     <Task TaskName="Contact leggen andere ROC's?">
@@ -1957,9 +1941,9 @@ Sandshrew + Skarmory</TaskText>
     </Task>
     <Task TaskName="DailyMtg">
       <TaskText />
-      <TaskPoints>20</TaskPoints>
+      <TaskPoints>10</TaskPoints>
       <TaskCategory>5</TaskCategory>
-      <TaskDeadline>2017-05-27T00:00:00+02:00</TaskDeadline>
+      <TaskDeadline>2017-05-28T00:00:00+02:00</TaskDeadline>
       <DateAdded>2017-04-08T00:00:00+02:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>30</TaskMinutes>
@@ -1989,9 +1973,9 @@ Sandshrew + Skarmory</TaskText>
     </Task>
     <Task TaskName="Journaal">
       <TaskText />
-      <TaskPoints>100</TaskPoints>
+      <TaskPoints>50</TaskPoints>
       <TaskCategory>3</TaskCategory>
-      <TaskDeadline>2017-05-27T00:00:00+02:00</TaskDeadline>
+      <TaskDeadline>2017-05-28T00:00:00+02:00</TaskDeadline>
       <DateAdded>2017-04-08T00:00:00+02:00</DateAdded>
       <DatePlanned>0001-01-01T00:00:00</DatePlanned>
       <TaskMinutes>30</TaskMinutes>
@@ -2315,6 +2299,12 @@ Sandshrew + Skarmory</TaskText>
           <EventStart>0001-01-01T08:00:00</EventStart>
           <EventEnd>0001-01-01T09:00:00</EventEnd>
         </Event>
+        <Event EventName="Lunch">
+          <EventDescription />
+          <EventLocation>check?</EventLocation>
+          <EventStart>0001-01-01T11:45:00</EventStart>
+          <EventEnd>0001-01-01T12:30:00</EventEnd>
+        </Event>
         <Event EventName="Journaal">
           <EventDescription />
           <EventLocation>check?</EventLocation>
@@ -2405,7 +2395,7 @@ Sandshrew + Skarmory</TaskText>
   <HighScores>
     <Days>
       <Date>2017-05-27T00:00:00+02:00</Date>
-      <Score>632</Score>
+      <Score>712</Score>
     </Days>
     <Days>
       <Date>2017-05-26T00:00:00+02:00</Date>

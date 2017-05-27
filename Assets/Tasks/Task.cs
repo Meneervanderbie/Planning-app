@@ -23,8 +23,14 @@ public class Task {
     [XmlElement("DateAdded")]
     public DateTime dateAdded;
 
-    [XmlElement("DatePlanned")]
-    public DateTime datePlanned;
+    [XmlElement("IsPlanned")]
+    public bool isPlanned;
+
+    [XmlElement("StartTime")]
+    public DateTime startTime;
+
+    [XmlElement("EndTime")]
+    public DateTime endTime;
 
     [XmlElement("TaskMinutes")]
     public int minutes;

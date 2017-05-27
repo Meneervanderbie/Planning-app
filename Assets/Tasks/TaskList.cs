@@ -136,9 +136,10 @@ public class TaskList {
 
         foreach(Task task in taskList)
         {
-            if(task.datePlanned.Year == year && task.datePlanned.Month == month && task.datePlanned.Day == day)
-            {
-                returnList.Add(task);
+            if (task.isPlanned) {
+                if (task.startTime.Year == year && task.startTime.Month == month && task.startTime.Day == day) {
+                    returnList.Add(task);
+                }
             }
         }
 
