@@ -54,11 +54,19 @@ public class CurrentTask : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
+    public void Delete() {
+        mm.taskList.DeleteTask(currentTask);
+        mm.SaveTaskList();
+        start.gameObject.SetActive(true);
+        start.Initialize();
+        gameObject.SetActive(false);
+    }
+
     // done, delete current task from list
     // linger for a second, display: DONE! and return to start
     public void Done()
     {
-        mm.taskList.DeleteTask(currentTask);
+        mm.taskList.FinishTask(currentTask);
         mm.SaveTaskList();
         start.gameObject.SetActive(true);
         start.Initialize();

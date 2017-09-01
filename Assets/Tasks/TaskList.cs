@@ -92,9 +92,13 @@ public class TaskList {
         taskList.Add(task);
     }
 
+    public void FinishTask(Task task) {
+        highscores[0].score += task.taskPoints;
+        taskList.Remove(task);
+    }
+
     public void DeleteTask(Task task)
     {
-        highscores[0].score += task.taskPoints;
         taskList.Remove(task);
     }
 

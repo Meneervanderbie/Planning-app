@@ -24,7 +24,7 @@ public class StartPlanner : MonoBehaviour {
         float heightLeft = dayPlanner.GetComponent<RectTransform>().rect.height * UI.scaleFactor;
         int listIndex = 0;
         while(todayTasks.Count < 0) {
-            todayTasks[listIndex].
+            //todayTasks[listIndex].
         }
         //TimeSpan restOfDay = new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day, 0, 0, 0).AddDays(1) - DateTime.Now;
        // int quarters = (int) restOfDay.TotalMinutes / 4;

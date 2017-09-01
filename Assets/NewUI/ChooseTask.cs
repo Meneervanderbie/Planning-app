@@ -82,6 +82,10 @@ public class ChooseTask : MonoBehaviour {
         thirdButton.image.color = GetColorFromString(mm.taskList.categoryList[tasklist[third].taskCategory].categoryColor);
     }
 
+    public void Reroll() {
+        Initialize(3);
+    }
+
 	// Back button clicked
     public void Back()
     {

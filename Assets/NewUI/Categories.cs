@@ -32,6 +32,7 @@ public class Categories : MonoBehaviour {
     {
         categories.ClearOptions();
         List<string> categoryList = mm.taskList.GetCategoryStrings();
+        categoryList.Add("New");
         categories.AddOptions(categoryList);
         categories.value = 0;
         SetFields(0);
@@ -39,11 +40,17 @@ public class Categories : MonoBehaviour {
 
     public void SelectCategory()
     {
+        if(categories.value == mm.taskList.GetCategoryStrings().Count) {
+            mm.taskList.categoryList.Add(new Category("New", 0, GetStringFromColor(Color.white)));
+        }
         SetFields(categories.value);
     }
 
-    public void SetFields(int cat)
-    {
+    public void DeleteCategory() {
+        mm.taskList.categoryList.RemoveAt(categories.value);
+    }
+
+    public void SetFields(int cat) { 
         current = mm.taskList.categoryList[cat];
         catName.text = current.categoryName;
         catPoints.text = current.points.ToString();
